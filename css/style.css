@@ -1,0 +1,37 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family:  sans-serif, 'Oswald';
+}
+
+header{
+    height: 70px;
+    max-width: 100%;
+    background-color: #292929;
+    display: flex;
+}
+
+.titulo{
+    margin-left: 70px;
+    margin-top: -5px;
+    color: #fff;
+}
+
+.itens{
+    margin-left: 500px;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    
+    list-style-type: none;
+    color: #fff;
+    
+}
+
+.itens :hover{
+   
+    cursor: pointer;
+    color: #8a28b2;
+    transition: 2s;
+    
+}

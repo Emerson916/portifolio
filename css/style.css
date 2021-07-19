@@ -18,7 +18,7 @@ header{
 }
 
 .itens{
-    margin-left: 500px;
+    margin-left: 460px;
     display: flex;
     flex-direction: row;
     gap: 70px;
@@ -44,29 +44,44 @@ header{
 
 #apresentacaoLeft{
     height: 50vh;
-    width: 35vw;
-    background-color: lawngreen;
-    margin-top: 150px;
-    margin-left: 70px;
+    width: 50%;
     
+    margin-top: 150px;
 }
 
 p {
     color: #fff;
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
+    display: flex;
+    margin-left: 170px;
+
+    margin-bottom: -30px;
+    
 }
 
-#pnome{
+#destaque{
+    color: #8a28b2;
     font-size: 2.0em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .btn{
     height: 25px;
     width: 150px;
     padding: 10px;
+    margin-top: 80px;
+    margin-left: 25%;
     text-align: center;
+    background-color: #8a28b2;
     font-size: 1.2em;
-    border: 2px solid #8a28b2;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 90px;
+}
+
+.btn :hover{
+    color: #8a28b2;
+    transition: 1s;
+    cursor: pointer;
 }

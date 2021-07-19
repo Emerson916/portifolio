@@ -5,7 +5,7 @@ body{
 }
 
 header{
-    height: 70px;
+    height: 60px;
     max-width: 100%;
     background-color: #292929;
     display: flex;
@@ -13,7 +13,7 @@ header{
 
 .titulo{
     margin-left: 70px;
-    margin-top: -5px;
+    margin-top: -10px;
     color: #fff;
 }
 
@@ -22,16 +22,51 @@ header{
     display: flex;
     flex-direction: row;
     gap: 70px;
-    
+    text-transform: capitalize;
     list-style-type: none;
     color: #fff;
-    
 }
 
 .itens :hover{
    
     cursor: pointer;
     color: #8a28b2;
-    transition: 2s;
+    transition: 1s;
     
+}
+
+#apresentacao{
+    height: 90vh;
+    max-width: 100%;
+    background-color: #232323;
+    display: flex;
+}
+
+#apresentacaoLeft{
+    height: 50vh;
+    width: 35vw;
+    background-color: lawngreen;
+    margin-top: 150px;
+    margin-left: 70px;
+    
+}
+
+p {
+    color: #fff;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+#pnome{
+    font-size: 2.0em;
+}
+
+.btn{
+    height: 25px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    border: 2px solid #8a28b2;
 }

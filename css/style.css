@@ -85,3 +85,16 @@ p {
     transition: 1s;
     cursor: pointer;
 }
+
+#apresentacaoRight{
+    background-color: rgba(175, 4, 248, 0.24);
+    height: 50vh;
+    width: 35%;
+    margin-left: 10%;
+    margin-top: 100px;
+    border-radius: 90px;
+}
+
+#apresentacaoRight > img{
+    margin-left: 55px;
+}

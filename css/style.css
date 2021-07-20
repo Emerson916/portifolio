@@ -27,7 +27,7 @@ header{
     color: #fff;
 }
 
-.itens:hover{
+.itens :hover{
     cursor: pointer;
     color: #8a28b2;
     transition: 1s;
@@ -97,4 +97,18 @@ p {
 
 #apresentacaoRight > img{
     margin-left: 55px;
+}
+
+#projetos{
+    height: 100vh;
+    max-width: 100%;
+    background-color: #292929;
+    display: flex;
+}
+
+.titleForm{
+    margin-left: 70px;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: capitalize;
 }

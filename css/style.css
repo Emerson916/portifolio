@@ -27,12 +27,10 @@ header{
     color: #fff;
 }
 
-.itens :hover{
-   
+.itens:hover{
     cursor: pointer;
     color: #8a28b2;
     transition: 1s;
-    
 }
 
 #apresentacao{
@@ -73,15 +71,17 @@ p {
     margin-top: 80px;
     margin-left: 25%;
     text-align: center;
-    background-color: #8a28b2;
+    background-color: #232323;
     font-size: 1.2em;
-    color: #fff;
-    border: 2px solid #fff;
+    color: #8a28b2;
+    border: 2px solid #8a28b2;
     border-radius: 90px;
 }
 
-.btn :hover{
-    color: #8a28b2;
+.btn:hover{
+    background-color: #8a28b2;
+    border: 2px solid #fff;
+    color: #fff;
     transition: 1s;
     cursor: pointer;
 }

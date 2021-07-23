@@ -1,7 +1,24 @@
+@keyframes colorlooping {
+    0%{
+        color: #8a28b2;
+    }
+    50%{
+        color: #fff;
+    }
+    100%{
+        color: #8a28b2;
+    }
+}
+
+
+
+
 body{
     padding: 0px;
     margin: 0px;
     font-family:  sans-serif, 'Oswald';
+    box-sizing: border-box;
+    user-select: none;
 }
 
 header{
@@ -62,6 +79,9 @@ p {
     color: #8a28b2;
     font-size: 2.0em;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    animation-name: colorlooping;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 .btn{
@@ -99,7 +119,7 @@ p {
     margin-left: 55px;
 }
 
-#projetos{
+#sobreMim{
     height: 100vh;
     max-width: 100%;
     background-color: #292929;
@@ -111,4 +131,43 @@ p {
     color: #fff;
     font-family: sans-serif;
     text-transform: capitalize;
+}
+
+#sobreMimLeft{
+    width: 26%;
+    height: 400px;
+
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    margin-left: -100px;
+    margin-top: 110px;
+    background-color: rgba(175, 4, 248, 0.24);
+    border-top-left-radius: 180px;
+    border-top-right-radius: 180px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+   
+}
+
+#sobreMimRight{
+    width: 50%;
+    height: 400px;
+
+    display: flex;
+    margin-top: 110px;
+    margin-left: 50px;
+    background-color: #8a28b2;
+}
+
+#sobreMimRight > p{
+    font-size: 1.3em;
+    text-align: left;
+    line-height: 30px;
+    
+}
+
+#sobreMimRight > .btn{
+
+margin-left: 110px;
 }

@@ -20,10 +20,8 @@
     }
 }
 
-:root{
-    --primary: #8a28b2;
-    --secundary: #292929;
-    --textPrimary: #fff; 
+a {
+	text-decoration: none;
 }
 
 .fotoPerfil{
@@ -32,6 +30,18 @@
     max-width: 100%;
     margin-top: 15px;
     border-radius: 50%;
+}
+
+#portifolio{
+    color: #fff;
+
+}
+
+#portifolio:hover{
+    color: #8a28b2;
+    transform: scale(1.1);
+    transition: .1s;
+    text-decoration: none;
 }
 
 #color{
@@ -79,8 +89,7 @@
 }
 
 .backgroundTitle{
-    width: 100vw;
-    height: 50vh;
+    
     background-color: #292929;
 
     margin-top: -20px;
@@ -92,6 +101,7 @@
 
 
 #background2{
+   
     background-color: #262626;
     color: #fff;
 }

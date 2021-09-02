@@ -5,6 +5,7 @@
 
     box-sizing: border-box;
     user-select: none;
+    
 }
 
 @keyframes colorlooping {
@@ -29,8 +30,90 @@
     height: 80%;
     width: auto;
     max-width: 100%;
-
+    margin-top: 15px;
     border-radius: 50%;
+}
+
+#color{
+    color:#fff;
+}
+
+#color:hover{
+    color: #8a28b2;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+#color2{
+    color: #fff;
+}
+
+#color2:hover{
+    color: #8a28b2;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+#color3{
+    color: #fff;
+}
+
+#color3:hover{
+    color: #8a28b2;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+#color4{
+    color: #fff;
+}
+
+#color4:hover{
+    color: #8a28b2;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.background1{
+    background-color:#292929;
+}
+
+.backgroundTitle{
+    width: 100vw;
+    height: 50vh;
+    background-color: #292929;
+
+    margin-top: -20px;
+    padding-top: 20px;
+
+    color: #fff;
+}
+
+
+
+#background2{
+    background-color: #262626;
+    color: #fff;
+}
+
+.backgroundTitleProjeto{
+    height: 5vh;
+
+    margin-top: -25px;
+    padding-top: 10px;
+    background-color: #262626;
+    color: #fff;
+}
+
+.backgroundTitle2{
+    
+    background-color: #262626;
+    
+}
+
+.navBar{
+    font-size: 1.5em;
+    color: #fff;
 }
 
 img{
@@ -38,6 +121,16 @@ img{
     height: 30px;
     padding-right: 15px;
 }
+
+.titulosBrancos{
+    text-decoration: underline;
+    text-underline-position: below;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+
 
 #destaque{
     color: #8a28b2;

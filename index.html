@@ -5,70 +5,278 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/globalStyles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
 
     <title>Portifólio || Emerson</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <header>
-        <div class="titulo">
-            <h1>
-                Portifólio
-            </h1>
-        </div>
 
-        <div>
-            <h4>
-            <ul class="itens">
-                <li>Sobre mim</li>
-                <li>Projetos</li>
-                <li>alguma coisa</li>
-                <li>Conhecimentos</li>
+    <!-- Menu-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Portifólio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
             </ul>
-            </h4>
-        </div>
-    </header>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
 
-    <nav>
-        <div id="apresentacao">
-            <div id="apresentacaoLeft">
-                <div>
-                    <p>Olá, Me chamo  </p>
-                    <p id="destaque">Emerson Silva</p><br>
-                    <P>Estudante de Programação.</P>
-                </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre Mim</a>
+                </li>
 
-                <div class="btn"> Git Hub </div>
-            </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Projetos</a>
+                </li>
 
-            <div id="apresentacaoRight">
-               <img src="img/programando.png" width="350" height="350" title="Programador" alt="Programador.png">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contatos</a>
+                </li>
 
-            </div>
+            </ul>
         </div>
     </nav>
 
-    <nav>
-        <div id="sobreMim">
-            <h2 class="titleForm">Sobre Mim<hr></h2>
-            
-            <div id="sobreMimLeft">
-               <img src="img/cat.png" width="300" height="300" title="Gato_doméstico" alt="Gato_Doméstico.png">
-            </div>
+    <!-- Perfil -->
 
-            <div id="sobreMimRight">
-                <p>Me chamo Emerson Silva, tenho 17 anos e moro em Jandira-SP. Atualmente estou fazendo curso no SENAI-Jandira de Técnico de Desenvolvimento de Sistemas.<br><br>Planejo seguir carreira no mundo da programação, pretendo me esforçar e me dedicar ao máximo para ser um ótimo programador.</p> 
+    <section class="jumbotron text-center">
+        <div class="container">
+            <img src="img/fotoPerfil" alt="ImagemPerfil" class="fotoPerfil" />
+            <h1 class="jumbotron-heading">Emerson Silva</h1>
+            <p class="lead text-muted">
+                Olá, Bem-vindo ao meu portifólio.
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/in/emerson-silva-32441717a/" class="btn btn-primary my-2"><img
+                        src="img/iconLinkedin.png">Linkedin</a>
+                <a href="https://github.com/Emerson916" class="btn btn-dark my-2"><img
+                        src="img/iconGitHub.png.crdownload">GitHub</a>
+            </p>
+        </div>
+    </section>
 
-                <div class="btn">
+    <!-- Sobre Mim-->
 
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h2 class="jumbotron-heading">Sobre Mim</h2>
+            <br><br>
+            <p class="lend">Olá, meu nome é Emerson Silva,
+                atualmente moro em Jandira-SP e estou estudando e me dedicando a profissão de Programador.
+                <br>
+                Com o objetivo de sempre ir além e aprender um pouco sobre tudo que é possivel.
+            </p>
+        </div>
+    </section>
+
+    <div class="container">
+        <h2 class="text-center">Projetos</h2>
+    </div>
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <h2>Título do projeto</h2>
+                        <div class="card-body">
+                            <p class="card-text">Aqui vai uma descrição</p>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="">
+                                        <button type="button" class="btn btn-sm btn-outline-success">Ver
+                                            projeto</button>
+                                    </a>
+                                    <a href="">
+                                        <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                                    </a>
+                                </div>
+                                <small class="text-muted">Por: Emerson S.</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <h2>Título do projeto</h2>
+                        <div class="card-body">
+                            <p class="card-text">Aqui vai uma descrição</p>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="">
+                                        <button type="button" class="btn btn-sm btn-outline-success">Ver
+                                            projeto</button>
+                                    </a>
+                                    <a href="">
+                                        <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                                    </a>
+                                </div>
+                                <small class="text-muted">Por: Emerson S.</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <h2>Título do projeto</h2>
+                        <div class="card-body">
+                            <p class="card-text">Aqui vai uma descrição</p>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="">
+                                        <button type="button" class="btn btn-sm btn-outline-success">Ver
+                                            projeto</button>
+                                    </a>
+                                    <a href="">
+                                        <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                                    </a>
+                                </div>
+                                <small class="text-muted">Por: Emerson S.</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <h2>Título do projeto</h2>
+                        <div class="card-body">
+                            <p class="card-text">Aqui vai uma descrição</p>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="">
+                                        <button type="button" class="btn btn-sm btn-outline-success">Ver
+                                            projeto</button>
+                                    </a>
+                                    <a href="">
+                                        <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                                    </a>
+                                </div>
+                                <small class="text-muted">Por: Emerson S.</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <h2>Título do projeto</h2>
+                        <div class="card-body">
+                            <p class="card-text">Aqui vai uma descrição</p>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="">
+                                        <button type="button" class="btn btn-sm btn-outline-success">Ver
+                                            projeto</button>
+                                    </a>
+                                    <a href="">
+                                        <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                                    </a>
+                                </div>
+                                <small class="text-muted">Por: Emerson S.</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <h2>Título do projeto</h2>
+                        <div class="card-body">
+                            <p class="card-text">Aqui vai uma descrição</p>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="">
+                                        <button type="button" class="btn btn-sm btn-outline-success">Ver
+                                            projeto</button>
+                                    </a>
+                                    <a href="">
+                                        <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                                    </a>
+                                </div>
+                                <small class="text-muted">Por: Emerson S.</small>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-           
         </div>
-    </nav>
+    </div>
+
+    <!-- contatos -->
+
+    <section>
+        <div>
+            <div class="container-fluid">
+                <h3 class="text-center">Disponível para oportunidades</h3>
+                <h4 class="text-center">emersons.a296@gmail.com</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <p>Copyright 2021 - Emerson Silva</p>
+    </footer>
 </body>
 
 </html>

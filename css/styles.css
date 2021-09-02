@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+
+    box-sizing: border-box;
+    user-select: none;
+}
+
+@keyframes colorlooping {
+    0%{
+        color: #8a28b2;
+    }
+    50%{
+        color: #fff;
+    }
+    100%{
+        color: #8a28b2;
+    }
+}
+
+:root{
+    --primary: #8a28b2;
+    --secundary: #292929;
+    --textPrimary: #fff; 
+}
+
+.fotoPerfil{
+    height: 80%;
+    width: auto;
+    max-width: 100%;
+
+    border-radius: 50%;
+}
+
+img{
+    width: 45px;
+    height: 30px;
+    padding-right: 15px;
+}
+
+#destaque{
+    color: #8a28b2;
+    font-size: 2.0em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation-name: colorlooping;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}

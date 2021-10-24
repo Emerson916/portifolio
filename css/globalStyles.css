@@ -1,0 +1,45 @@
+:root{
+    --primary-color: #161868;
+    --color-text-light: #f7f7f7;
+    --color-background-dark: #333439;
+
+
+    --primary-color-dark: #041832;
+    --color-text-dark: #262626;
+    --color-background: #ecf4ff;
+
+    --button-blue: #375b86;
+    --button-green: #34a73a;
+
+
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background: linear-gradient(236.86deg, #041832 27.26%, var(--primary-color) 96.83%);
+    font-family: 'Roboto', sans-serif ; 
+    user-select: none;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+                  
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--color-text-dark);       
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color:var(--color-background);   
+    border-radius: 90px;     
+    border: 2px solid var(--color-background-dark) ; 
+  }
+
+
+
+
+

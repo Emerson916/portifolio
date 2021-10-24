@@ -1,282 +1,270 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/styles.css" rel="stylesheet">
-   
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="sortcut icon" href="../portifolio/img/perfilImage.png" type="image/png"/>
+    <link rel="stylesheet" href="css/globalStyles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/darkMode.css" />
+    <link rel="stylesheet" href="css/projetos.css" />
+    <link rel="stylesheet" href="css/cabeçalho.css" />
+    <link rel="stylesheet" href="css/conhecimentos.css" />
+    <link rel="stylesheet" href="css/consideracoes.css" />
 
-    <title>Portifólio || Emerson</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-
+    <title>aula 09 - portifolio</title>
 </head>
 
 <body>
-
-    <!-- Menu-->
-    <div class="background1">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a href="https://github.com/Emerson916/portifolio" class="navBar" id="portifolio">Portifólio</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" id="color" href="#">Home</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" id="color2" href="#">Sobre Mim</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" id="color3" href="#">Projetos</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" id="color4" href="#">Contatos</a>
-                    </li>
-
-                </ul>
-            </div>
-        </nav>
-    </div>
-    <!-- Perfil -->
-
-    <section class="text-center" id="background2">
-        <div class="container">
-            <img src="img/fotoPerfil" alt="ImagemPerfil" class="fotoPerfil" />
-            <h1 class="jumbotron-heading" id="destaque">Emerson Silva</h1>
-            <p class="lead text-muted">
-                Olá, Bem-vindo ao meu portifólio.
-            </p>
-            <p>
-                <a href="https://www.linkedin.com/in/emerson-silva-32441717a/" class="btn btn-primary my-2"><img
-                        src="img/iconLinkedin.png">Linkedin</a>
-                <a href="https://github.com/Emerson916" class="btn btn-dark my-2"><img
-                        src="img/iconGitHub.png.crdownload">GitHub</a>
-            </p>
-        </div>
-    </section>
-
-    <!-- Sobre Mim-->
-
-    <section class=" text-center">
-        <div class="backgroundTitle ">
-            <h2 class="jumbotron-heading titulosBrancos">Sobre Mim</h2>
-            <br><br>
-            <p class="lend">Olá, meu nome é Emerson Silva,
-                atualmente moro em Jandira-SP e estou estudando e me dedicando a profissão de Programador.
-                <br>
-                Com o objetivo de sempre ir além e aprender um pouco sobre tudo que é possivel.
-            </p>
-        </div>
-    </section>
-
-    <div class="backgroundTitleProjeto">
-        <h2 class="text-center titulosBrancos">Projetos</h2>
-    </div>
-
-    <div class="album py-5  backgroundTitle2">
-        <div class="container">
-
-            <div class="row">
-
-                <div class="col-md-6">
-                    <div class="card mb-4 box-shadow">
-                        <h2>Título do projeto</h2>
-                        <div class="card-body">
-                            <p class="card-text">Aqui vai uma descrição</p>
-                            <ul>
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>JavaScript</li>
-                            </ul>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="">
-                                        <button type="button" class="btn btn-sm btn-outline-success">Ver
-                                            projeto</button>
-                                    </a>
-                                    <a href="">
-                                        <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
-                                    </a>
-                                </div>
-                                <small class="text-muted">Por: Emerson S.</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-md-6">
-                    <div class="card mb-4 box-shadow">
-                        <h2>Título do projeto</h2>
-                        <div class="card-body">
-                            <p class="card-text">Aqui vai uma descrição</p>
-                            <ul>
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>JavaScript</li>
-                            </ul>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="">
-                                        <button type="button" class="btn btn-sm btn-outline-success">Ver
-                                            projeto</button>
-                                    </a>
-                                    <a href="">
-                                        <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
-                                    </a>
-                                </div>
-                                <small class="text-muted">Por: Emerson S.</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="card mb-4 box-shadow">
-                        <h2>Título do projeto</h2>
-                        <div class="card-body">
-                            <p class="card-text">Aqui vai uma descrição</p>
-                            <ul>
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>JavaScript</li>
-                            </ul>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="">
-                                        <button type="button" class="btn btn-sm btn-outline-success">Ver
-                                            projeto</button>
-                                    </a>
-                                    <a href="">
-                                        <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
-                                    </a>
-                                </div>
-                                <small class="text-muted">Por: Emerson S.</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="card mb-4 box-shadow">
-                        <h2>Título do projeto</h2>
-                        <div class="card-body">
-                            <p class="card-text">Aqui vai uma descrição</p>
-                            <ul>
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>JavaScript</li>
-                            </ul>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="">
-                                        <button type="button" class="btn btn-sm btn-outline-success">Ver
-                                            projeto</button>
-                                    </a>
-                                    <a href="">
-                                        <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
-                                    </a>
-                                </div>
-                                <small class="text-muted">Por: Emerson S.</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="card mb-4 box-shadow">
-                        <h2>Título do projeto</h2>
-                        <div class="card-body">
-                            <p class="card-text">Aqui vai uma descrição</p>
-                            <ul>
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>JavaScript</li>
-                            </ul>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="">
-                                        <button type="button" class="btn btn-sm btn-outline-success">Ver
-                                            projeto</button>
-                                    </a>
-                                    <a href="">
-                                        <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
-                                    </a>
-                                </div>
-                                <small class="text-muted">Por: Emerson S.</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="card mb-4 box-shadow">
-                        <h2>Título do projeto</h2>
-                        <div class="card-body">
-                            <p class="card-text">Aqui vai uma descrição</p>
-                            <ul>
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>JavaScript</li>
-                            </ul>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="">
-                                        <button type="button" class="btn btn-sm btn-outline-success">Ver
-                                            projeto</button>
-                                    </a>
-                                    <a href="">
-                                        <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
-                                    </a>
-                                </div>
-                                <small class="text-muted">Por: Emerson S.</small>
-                            </div>
-                        </div>
+    <div class="container" data-aos="fade-left">
+        <header class="cabeçalho" >
+            <div class="perfil">
+                <img src="https://github.com/Emerson916.png" class="perfil-foto" alt="imagemPerfilGit.png" />
+                <div class="titulo">
+                    <h1>Emerson Silva</h1>
+                    <h3>Estudante de Desenvolvimento de Sistemas.</h3>
+                    <div class="contatos">
+                        <a target="_blank" href="https://www.linkedin.com/in/emerson-silva-32441717a/"><img
+                                class="icon-contato" src="/img/linkedin.png"></img></a>
+                        <a target="_blank" href="https://github.com/Emerson916/"><img class="icon-contato"
+                                src="/img/gitHub.png"></img></a>
+                        <a target="_blank" href="mailto:emersons.a296@gmail.com"><img class="icon-contato"
+                                src="/img/email.png"></img></a>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <!-- contatos -->
-
-    <section>
-        <div>
-            <div class="container-fluid">
-                <h3 class="text-center">Disponível para oportunidades</h3>
-                <h4 class="text-center">emersons.a296@gmail.com</h4>
+            <div class="tema">
+                <button onclick="mudarTema()">Mudar Tema</button>
             </div>
-        </div>
-    </section>
+        </header>
+    </div>
+    <main class="projetos" data-aos="fade-up">
+        <h2>Projetos</h2>
+        <ul class="projetos-titulos ">
+            <li class="projeto-item">
+                <div class="container-projeto">
+                    <h6 class="titulo-projeto">CalculadoraJS</h6>
+                    <P class="descricao-projeto">Uma calculadora feita com HTML, CSS e JavaScript, faça calculos
+                        simples, podendo utilizar até 4 operações matemáticas.</P>
+                    <button class="btnCodigo"> <a href="https://github.com/Emerson916/calculadoraJS"> Ver Código
+                        </a></button>
+                    <button class="btnProjeto"> <a href="https://emerson916.github.io/calculadoraJS/index.html">Ver
+                            Projeto</a></button>
+                </div>
+            </li>
+            <li class="projeto-item">
+                <div class="container-projeto">
+                    <h6 class="titulo-projeto">ToDo_List</h6>
+                    <P class="descricao-projeto">Liste suas tarefas, podendo marcar como tarefas já concluidas ou
+                        excluindo uma tarefa criada, projeto feito com HTML, CSS e JavaScript.</P>
+                    <button class="btnCodigo"> <a href="https://github.com/Emerson916/toDo_List"> Ver Código
+                        </a></button>
+                    <button class="btnProjeto"> <a href="https://emerson916.github.io/toDo_List/index.html"> Ver Projeto
+                        </a></button>
+                </div>
+            </li>
+            <li class="projeto-item">
+                <div class="container-projeto">
+                    <h6 class="titulo-projeto">Slide Show</h6>
+                    <P class="descricao-projeto">Slide show apresenta uma roleta de imagens na qual você pode passar
+                        adiante ou retornar uma imagem, feita com HTML, CSS e JavaScript.</P>
+                    <button class="btnCodigo"> <a href="https://github.com/Emerson916/slideShow"> Ver Código
+                        </a></button>
+                    <button class="btnProjeto"> <a href="https://emerson916.github.io/slideShow/"> Ver Projeto
+                        </a></button>
+                </div>
+            </li>
+            <li class="projeto-item">
+                <div class="container-projeto">
+                    <h6 class="titulo-projeto">Conversor de Moeda</h6>
+                    <P class="descricao-projeto">Veja quanto fica os dolares convertidos em reais, projeto feito com
+                        HTML, CSS e JavaScript. <br><br>(obs: preço da cotação atualizado pela ultima vez em 14/10/2021)
+                        .</P>
+                    <button class="btnCodigo"> <a
+                            href="https://github.com/Emerson916/imersaoDevProjetos/tree/main/conversorMoedas"> Ver
+                            Código </a></button>
+                    <button class="btnProjeto"> <a
+                            href="https://emerson916.github.io/imersaoDevProjetos/conversorMoedas/conversor.html"> Ver
+                            Projeto </a></button>
+                </div>
+            </li>
+            <li class="projeto-item">
+                <div class="container-projeto">
+                    <h6 class="titulo-projeto">O Mentalista</h6>
+                    <P class="descricao-projeto">Tente adivinhar qual será o número sorteado de 0 a 10, projeto feito
+                        com HTML, CSS e JavaScript.</P>
+                    <button class="btnCodigo"> <a
+                            href="https://github.com/Emerson916/imersaoDevProjetos/tree/main/mentalista"> Ver Código
+                        </a></button>
+                    <button class="btnProjeto"> <a
+                            href="https://emerson916.github.io/imersaoDevProjetos/mentalista/mentalista.html"> Ver
+                            Projeto</a></button>
+                </div>
+            </li>
+            <li class="projeto-item">
+                <div class="container-projeto">
+                    <h6 class="titulo-projeto">aluraFlix</h6>
+                    <P class="descricao-projeto">Pegue uma URL de uma imagem e crie uma listagem de pôsteres, projeto
+                        feito com HTML, CSS e JavaScript.</P>
+                    <button class="btnCodigo"> <a
+                            href="https://github.com/Emerson916/imersaoDevProjetos/tree/main/aluraFlix"> Ver Código
+                        </a></button>
+                    <button class="btnProjeto"> <a
+                            href="https://emerson916.github.io/imersaoDevProjetos/aluraFlix/aluraFlix.html"> Ver
+                            Projeto</a></button>
+                </div>
+            </li>
+            <li class="projeto-item">
+                <div class="container-projeto">
+                    <h6 class="titulo-projeto">Super Trunfo</h6>
+                    <P class="descricao-projeto">Comece sorteando uma carta, depois escolha uma atributo da carta
+                        escolhida (ataque, defesa, magia) veja o resultado apertando em "jogar", projeto feito com HTML,
+                        CSS e JavaScript.</P>
+                    <button class="btnCodigo"> <a
+                            href="https://github.com/Emerson916/imersaoDevProjetos/tree/main/superTrunfo"> Ver Código
+                        </a></button>
+                    <button class="btnProjeto"> <a
+                            href="https://emerson916.github.io/imersaoDevProjetos/superTrunfo/trunfo.html"> Ver
+                            Projeto</a></button>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <main class="projetos" data-aos="fade-bottom">
+        <h2>Conhecimentos</h2>
+        <ul>
+            <li class="flip-container">
+                <div class="flipper">
+                    <div class="front">
+                        <h3>HTML</h3>
+                        <img src="img/html.png" class="imagens" />
+                    </div>
+                    <div class="back">
+                        <h3>HTML</h3>
+                        <p class="descricaoStyles">
+                            O HTML é o componente base da web. Isso quer dizer que ele permite a construção de websites
+                            e a inserção de novos conteúdos, como imagens e vídeos, por meio dos hipertextos.
+                        </p>
+                        <p>Nível de experiência: Médio</p>
+                    </div>
 
-    <!-- Footer -->
-    <footer class="text-center">
-        <p>Copyright 2021 - Emerson Silva</p>
+                </div>
+            </li>
+            <li class="flip-container">
+                <div class="flipper">
+                    <div class="front">
+                        <h3>CSS</h3>
+                        <img src="img/css.png" class="imagens" />
+                    </div>
+                    <div class="back">
+                        <h3>CSS</h3>
+                        <p class="descricaoStyles">
+                            CSS é o código que você usa para dar estilo à sua página Web.
+                        </p>
+                        <p>Nível de experiência: Médio</p>
+                    </div>
+
+                </div>
+            </li>
+            <li class="flip-container">
+                <div class="flipper">
+                    <div class="front">
+                        <h3>JavaScript</h3>
+                        <img src="img/javaScript.png" class="imagens" />
+                    </div>
+                    <div class="back">
+                        <h3>JavaScript</h3>
+                        <p class="descricaoStyles">
+                            JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível
+                            com tipagem dinâmica fraca e multiparadigma.
+                        <p>Nível de experiência: Básico</p>
+                    </div>
+
+                </div>
+            </li>
+            <li class="flip-container">
+                <div class="flipper">
+                    <div class="front">
+                        <h3>ReactJS</h3>
+                        <img src="img/reactJS.png" class="imagens" />
+                    </div>
+                    <div class="back">
+                        <h3>ReactJS</h3>
+                        <p class="descricaoStyles">
+                            O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário
+                            em páginas web.
+                        </p>
+                        <p>Nível de experiência: Básico</p>
+                    </div>
+
+                </div>
+            </li>
+            <li class="flip-container">
+                <div class="flipper">
+                    <div class="front">
+                        <h3>NodeJS</h3>
+                        <img src="img/nodeJS.png" class="imagens" />
+                    </div>
+                    <div class="back">
+                        <h3>NodeJS</h3>
+                        <p class="descricaoStyles">
+                            Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do
+                            Google e que permite a execução de códigos JavaScript fora de um navegador web.
+                        </p>
+                        <p>Nível de experiência: Básico</p>
+                    </div>
+                </div>
+            </li>
+            <li class="flip-container">
+                <div class="flipper">
+                    <div class="front">
+                        <h3>Android / Kotlin</h3>
+                        <img src="img/android.png" class="imagens" />
+                    </div>
+                    <div class="back">
+                        <h3>Android / Kotlin</h3>
+                        <p class="descricaoStyles">
+                            Kotlin é uma Linguagem de programação multiplataforma, orientada a objetos e funcional,
+                            concisa e estaticamente tipada.
+                        </p>
+                        <p>Nível de experiência: Básico</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </main>
+
+    <footer class="consideracoes" data-aos="fade-right">
+        <h2 id="hello">! Hellow World 🌎! </h2>
+
+        <p id="msg">Entre em contato comigo, tanto para sanar alguma dúvida quanto para me dar alguma dica, não
+            hesite!!  😁.</p>
+
+        <div id="emailContato">
+            <img src="/img/email.png" class="icon" />
+            <a target="_blank" href="mailto:emersons.a296@gmail.com">
+                emersons.a296@gmail.com
+            </a>
+        </div>
+
+        <div id="btnContatos">
+            <button class="btns" ><a target="_blank" href="https://www.linkedin.com/in/emerson-silva-32441717a/">📋 Linkedin</a></button>
+            <button class="btns"><a target="_blank" href="https://github.com/Emerson916">😸 GitHub</a></button>
+            <button class="btns"><a target="_blank" href="https://discord.gg/y3Rq4W9864">👾 Discord</a></button>
+        </div>
+
+        <h5>❤ Feito orgulhosamente por Emerson Silva ❤.</h5>
     </footer>
+
+    <script src="main.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init()
+    </script>
 </body>
 
 </html>

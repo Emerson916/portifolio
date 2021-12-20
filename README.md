@@ -9,7 +9,7 @@ Esse é o meu portifolio, onde eu demonstro alguns projetos, acesse-o para confe
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-![](https://img.shields.io/badge/‎-VS%20Code-140de0?logo=visual-studio-code&logoColor=white&style=plastic)
+![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
 ## Se tiver alguma dúvida/dica entre em contato comigo, não hesite !!
 

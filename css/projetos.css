@@ -5,8 +5,7 @@
     margin: 32px 64px 0px 64px;
     padding: 32px;
     box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
-    border-radius: 20px;
-    
+    border-radius: 20px; 
 }
 
 .projetos-titulos {
@@ -100,4 +99,30 @@ a:link, :visited{
     background: var(--color-background);
     border: 1px solid var(--button-green);
     transition: 1s;
+}
+
+@media screen and (max-width:720px) {
+    .container-projeto{
+        width: 200px;
+        height: 230px;
+        padding-bottom: 15px;
+    } 
+}
+
+@media screen and (max-width:540px) {
+    .projetos{
+        width: 235px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 90px;
+        padding-left: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .descricao-projeto{
+        font-size: 16px;
+        line-height: 15px;
+        
+    }
 }

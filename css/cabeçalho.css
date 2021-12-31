@@ -56,7 +56,10 @@
     transition: 1s;
 }
 
- 
+ .tema{
+    max-width: 100px;
+    max-height: 40px;
+ }
 .tema button{
     align-self: flex-end;
     font-size: 16px;
@@ -74,6 +77,84 @@
     color: var(--color-background);
     background: var(--color-background-dark);
     border: 1px solid var(--color-background-dark);
+}
+
+@media screen and (max-width:855px) {
+
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .titulo h1{
+        font-size: 24px;
+    }
+    
+    .titulo h3 {
+        font-size: 18px;
+    }
+  
+}
+
+@media screen and (max-width:715px) {
+
+    .container{
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .perfil-foto{
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin: 20px auto 0px auto;
+    }
+
+    img{
+        width: 100px;
+        height: 100px; 
+    }
+    
+    .contatos{
+        width: 100%;
+        justify-content: center;
+        position: absolute;
+        right: 0;
+    }
+
+    .titulo{
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .titulo h1{
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .tema{
+        display: none;
+    }
+}
+
+@media screen and (max-width:540px) {
+   .container{
+        width: 235px;
+        margin-left: auto;
+        margin-right: auto;  
+        padding-left: 100px;
+        padding-right: 90px;
+   }
+
+    .titulo h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+    
 }
 
 

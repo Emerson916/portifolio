@@ -143,11 +143,11 @@
 
 @media screen and (max-width:540px) {
    .container{
-        width: 235px;
+        width: 210px;
         margin-left: auto;
         margin-right: auto;  
         padding-left: 100px;
-        padding-right: 90px;
+        padding-right: 100px;
    }
 
     .titulo h3 {

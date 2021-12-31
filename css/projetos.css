@@ -103,7 +103,7 @@ a:link, :visited{
 
 @media screen and (max-width:720px) {
     .container-projeto{
-        width: 200px;
+        width: 100%;
         height: 230px;
         padding-bottom: 15px;
     } 
@@ -111,14 +111,14 @@ a:link, :visited{
 
 @media screen and (max-width:540px) {
     .projetos{
-        width: 235px;
+        width: 350px;
         margin-left: auto;
         margin-right: auto;
-        padding-right: 90px;
-        padding-left: 100px;
-        justify-content: center;
-        align-items: center;
+        
+        
     }
+
+    
 
     .descricao-projeto{
         font-size: 16px;

@@ -1,12 +1,10 @@
-
 .container{
     background: var(--color-background);
     margin: 64px 64px 32px 64px;
     border-radius: 20px;
     box-shadow: 6px 6px 6px #0e1d2f;
     color: #1c1c1c;
-    padding: 64px;
-    
+    padding: 64px; 
 }
 
 .cabeçalho{

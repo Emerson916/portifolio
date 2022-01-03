@@ -14,6 +14,7 @@
     background: #333439;
 }
 
+
 .dark .tema button{
     background: #333439;
     color: #fff;
@@ -52,4 +53,8 @@
     background: var(--primary-color-dark);
 }
 
+.dark .conhecimentos{
+    background:var(--color-background-dark);
+    
+}
 

@@ -55,6 +55,6 @@
 
 .dark .conhecimentos{
     background:var(--color-background-dark);
-    
+    color: #fff;
 }
 

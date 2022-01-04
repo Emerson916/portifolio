@@ -2,7 +2,7 @@
     text-align: center;
     /* background: linear-gradient(236.86deg, var(--primary-color) 27.26%, var(--secundary-color) 96.83%); */
     background:var(--color-background) ;
-    margin: 32px 64px 0px 64px;
+    margin: 32px 64px 32px 64px;
     padding: 32px;
     box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
     border-radius: 20px; 
@@ -20,15 +20,16 @@
     font-size: 24px;
     font-weight: 400;
     line-height: 48px;
+    
 }
 
 .container-projeto {
     width: 230px;
-    height: 250px;
+    box-sizing: content-box;
     background: var(--primary-color);
     border-radius: 15px;
     box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
-    text-align: center;
+    
 }
 
 .container-projeto:hover{
@@ -62,7 +63,6 @@ a:link, :visited{
     border: 1px solid var(--button-blue);
     border-radius: 10px 0px 0px 10px;
     color: var(--color-background);
-    margin-left: 2.5px;
     background: var(--button-blue);
 }
 
@@ -83,7 +83,6 @@ a:link, :visited{
     border: 1px solid var(--button-green);
     border-radius: 0px 10px 10px 0px;
     color: var(--color-background);
-    margin-right: 2.5px;
     background: var(--button-green);
 }
 
@@ -91,7 +90,6 @@ a:link, :visited{
     color: var(--button-green);
     transition: 1s;
 }
-
 
 .btnProjeto:hover{
     color: var(--button-green);
@@ -110,13 +108,12 @@ a:link, :visited{
 
 @media screen and (max-width:540px) {
     .projetos{
-        width: 280px;
         margin-left: auto;
         margin-right: auto;   
     }
 
     .descricao-projeto{
-        font-size: 16px;
-        line-height: 15px;  
+        font-size: 15px;
+        line-height: 20px;  
     }
 }

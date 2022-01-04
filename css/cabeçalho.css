@@ -1,10 +1,11 @@
 .container{
     background: var(--color-background);
-    margin: 64px 64px 32px 64px;
+    margin: 32px 64px 32px 64px;
+    padding: 64px;
     border-radius: 20px;
     box-shadow: 6px 6px 6px #0e1d2f;
     color: #1c1c1c;
-    padding: 64px; 
+    
 }
 
 .cabeçalho{
@@ -46,7 +47,6 @@
 .icon-contato {
    width: 35px;
    height: 35px;
-   
 }
 .icon-contato:hover{
     /* transform: scale(1.1); */
@@ -141,7 +141,7 @@
 
 @media screen and (max-width:540px) {
    .container{
-        width: 215px;
+      
         margin-left: auto;
         margin-right: auto;  
         

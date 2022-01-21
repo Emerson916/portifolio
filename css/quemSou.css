@@ -1,0 +1,8 @@
+.quemSou{
+    text-align: center;
+    background:var(--color-background) ;
+    margin: 32px 64px 32px 64px;
+    padding: 32px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    border-radius: 20px; 
+}

@@ -1,0 +1,184 @@
+.paralax {
+    position: absolute;
+    height: 100%;
+}
+
+.paralax-item {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.p-item0 {
+    background-color: #111;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.p-item1 {
+    background: url("../../assets/img/stars.png") center/cover no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.p-item3 {
+    background: url("../../assets/img/mountains_front.png") bottom/100% no-repeat;
+    /* background: url("../../assets/img/m_3.png") bottom/100% no-repeat; */
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.p-item4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: url("../../assets/img/m_2.png") repeat-x;
+    background-size: contain;
+    background-position: center;
+    animation: marquee 20s linear infinite;
+}
+.p-item4::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: url("../../assets/img/m_2.png") repeat-x;
+    background-size: contain;
+    background-position: center;
+    animation: marquee 20s linear infinite;
+    z-index: 1;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(0,0,0);
+    }
+
+    100% {
+        transform: translate3d(-200vw,0,0);
+    }
+}
+
+.container_moon {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0 auto; 
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 80vh;
+    background-color: #111;
+}
+
+.content-header {
+    font-family: sans-serif;
+    color: white;
+    text-align: center !important;
+    /* text-transform: uppercase; */
+    /* margin-right: 50%; */
+    margin-bottom: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-item0 {
+    width: 100%;
+    height: 600px;
+    background-color: #1a1a1a;
+    margin: 0 auto;
+    /* margin-right: 40px; */
+}
+
+.content-item1 {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    /* margin-right: 40px; */
+}
+
+.content-item2 {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #1a1a1a;
+    /* margin-right: 40px; */
+}
+
+.content-item3 {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    /* margin-right: 40px; */
+}
+.content-item4 {
+    width: 80%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    /* margin-right: 40px; */
+}
+
+.card-project {
+    width: 350px;
+    height: 350px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: solid 1px #fff;
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-project button {
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 6px;
+    background-color: #6c63ff;
+    color: #fff;
+}
+
+.card-project:hover {
+    border: solid 1px #6c63ff;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    border: solid 1px #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.invisible {
+    visibility: hidden;
+}

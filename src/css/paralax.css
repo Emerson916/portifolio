@@ -21,7 +21,7 @@
 }
 
 .p-item1 {
-    background: url("../../assets/img/stars.png") center/cover no-repeat;
+    background: url("../assets/img/stars.png") center/cover no-repeat;
     position: fixed;
     width: 100%;
     height: 100%;
@@ -30,7 +30,7 @@
 }
 
 .p-item3 {
-    background: url("../../assets/img/mountains_front.png") bottom/100% no-repeat;
+    background: url("../assets/img/mountains_front.png") bottom/100% no-repeat;
     /* background: url("../../assets/img/m_3.png") bottom/100% no-repeat; */
     background-size: cover;
     background-position: center;
@@ -44,7 +44,7 @@
     width: 100%;
     height: 100%;
     content: "";
-    background: url("../../assets/img/m_2.png") repeat-x;
+    background: url("../assets/img/m_2.png") repeat-x;
     background-size: contain;
     background-position: center;
     animation: marquee 20s linear infinite;
@@ -56,7 +56,7 @@
     width: 100%;
     height: 100%;
     content: "";
-    background: url("../../assets/img/m_2.png") repeat-x;
+    background: url("../assets/img/m_2.png") repeat-x;
     background-size: contain;
     background-position: center;
     animation: marquee 20s linear infinite;

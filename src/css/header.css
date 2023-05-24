@@ -1,6 +1,6 @@
 
 header {
-    width: 100%;
+    width: 100vw;
     height: 60px;
     position: fixed;
     display: flex;
@@ -16,23 +16,4 @@ header {
 header h2 {
     font-size: 30px;
     font-family: cursive, sans-serif;
-}
-
-.menu{
-    z-index: 2;
-    display: flex;
-    gap: 40px;
-    font-family: cursive, sans-serif;
-    font-size: 18px;
-}
-
-a, li{
-    text-decoration: none;
-    list-style: none;
-    cursor: pointer;
-}
-    
-li:hover{
-    transform: scale(1.10);
-    transition: 0.2s;
 }

@@ -6,26 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/paralax.css"/>
     <link rel="stylesheet" href="./css/header.css"/>
+    <link rel="stylesheet" href="./css/menu.css"/>
+    <link rel="stylesheet" href="./css/who_i_styles.css"/>
+    <link rel="stylesheet" href="./css/sun.css"/>
     <link rel="stylesheet" href="./css/global_styles.css"/>
-    <link rel="sortcut icon" href="../assets/img/code.svg" type="icon/svg">
+    <link rel="sortcut icon" href="../src/assets/img/code.svg" type="icon/svg">
     <title>Portifólio || Emerson Silva</title>
 </head>
 <body>
     <header>
-        <!-- <button id="btnMobile" class="btnMobile" onclick="menu()">
-            <span id="hamburguer"></span>
-        </button> -->
-        <h2>Portifólio</h2>
-
-        <ul class="menu">
-            <li>Ínicio</li>
-            <li>Quem sou</li>
-            <li>Experiências</li>
-            <li>Projetos</li>
-            <li>Conhecimentos</li>
-        </ul>
+        <h2>Portifólio</h2> 
+        <nav id="nav"> 
+            <ul class="menu">
+                <li><a href="#home" data-item='Ínicio'>Ínicio</a></li>
+                <li><a href="#who-i" data-item='Quem sou'>Quem sou</a></li>
+                <li><a href="#experience" data-item='Experiências'>Experiências</a></li>
+                <li><a href="#project" data-item='Projetos'>Projetos</a></li>
+                <li><a href="#skills" data-item='Conhecimentos'>Conhecimentos</a></li>
+            </ul>
+            <button id="btnMobile" class="btnMobile" onclick="menu()">
+                <span id="hamburguer"></span>
+            </button>
+        </nav>
     </header>
-    <div class="paralax">
+    <div class="paralax" id="home">
         <div class="paralax-item p-item0"></div>
         <div class="paralax-item p-item1"></div>
         <div class="paralax-item p-item2"></div>
@@ -33,8 +37,15 @@
         <div class="paralax-item p-item4"></div>
     </div>
 
+    <!-- <div id="sunContainer">
+        <div id="sun"></div>
+    </div> -->
+
     <div class="container_moon">
         <img src="./assets/img/moon_2.png" />
+    </div>
+    <div class="container_moon_small">
+        <img src="./assets/img/moon_small.png" />
     </div>
     <div class="container">
         <div class="content-header">
@@ -47,14 +58,14 @@
             </div>
         </div>
 
-        <div class="content-item0">
-            <div style="height: inherit; width:90%; margin: 0 auto; display: flex; align-items: center; justify-content: center;">
-                <div style="height: 400px; display: flex; padding: 15px 0; font-family: cursive, sans-serif; border-radius: 6px; border: 1px solid #c2c2c2; background-color: #111;">
-                    <div style="width: 50%; display: flex; justify-content: center; align-items: center;">
-                        <img src="https://avatars.githubusercontent.com/u/77053593?v=4" style="width: 350px; height: 350px; border-radius: 1000px;"/>
+        <div class="content-item0" id="who-i">
+            <div class="card-who-i">
+                <div class="sub-card-who-i">
+                    <div class="avatar">
+                        <img src="https://avatars.githubusercontent.com/u/77053593?v=4" />
                     </div>
                     
-                    <div style="width:50%; color: white; font-family: cursive, sans-serif;">
+                    <div class="details">
                         <h2 style="font-size: 30px; color: #6C63FF;">Quem sou<span style="color: white;">.</span></h2>
                         <h3 style="font-size: 20px;">Emerson Silva</h3>
                         <h3 style="font-size: 20px; color: #c2c2c2;">Developer.jr</h3>
@@ -68,7 +79,7 @@
             </div>
         </div>
 
-        <div class="content-item1">
+        <!-- <div class="content-item1" id="experience">
             <div style="color: white; font-family: cursive, sans-serif; height: 500px;">
                 <h2 style="font-size: 30px; color: #6C63FF;">Experiências<span style="color: white;">.</span></h2>
                 <div style="display: flex; gap: 60px;">
@@ -90,8 +101,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="content-item2">
+        </div> -->
+        <!-- <div class="content-item2">
             <div style="height:700px; width:80%; display: flex; padding: 15px 0; font-family: cursive, sans-serif; margin: 0 auto;">
                 <div style="width:100%; color: white; font-family: cursive, sans-serif;">
                     <h2 style="font-size: 30px; color: #6C63FF;">Projetos<span style="color: white;">.</span></h2>
@@ -116,14 +127,14 @@
                     <a href="https://github.com/Emerson916?tab=repositories" style="font-size: 20px; text-align: center; color: #6C63FF;"><p>Acesse meus repositório e veja mais projetos.</p></a>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- <div class="content-item3">
             <div style="color: white; font-family: cursive, sans-serif;">
                 <h2>Serviços</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
             </div>
         </div> -->
-        <div class="content-item4">
+        <!-- <div class="content-item4">
             <div style="width:90%; display: flex; padding: 10px 0; color: #6C63FF; font-family: cursive, sans-serif; margin: 0 auto;">
                 <div style="width: 50%; height: inherit;">
                     <h2 style="font-size: 30px;">Conhecimentos<span style="color: white;">.</span></h2>
@@ -143,7 +154,7 @@
                     
                 </div>
             </div>
-        </div>
+        </div> -->
         <footer>
             <h4>copyright © 2023 <a href="" style="color: #6C63FF;">Emerson Silva</a>.</h4>
             <div style="display: flex; gap: 40px;">
@@ -157,5 +168,6 @@
         </div> -->
     </div>
     <script src="./js/paralax.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>

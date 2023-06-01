@@ -13,7 +13,7 @@
 }
 
 .p-item0 {
-    background-color: #111;
+    /* background-color: #111; */
     position: fixed;
     width: 100%;
     height: 100%;
@@ -26,7 +26,16 @@
     position: fixed;
     width: 100%;
     height: 100%;
-    top: 0;
+    top: 10;
+    left: 0;
+}
+
+.p-item1-light-mode {
+    background: url("../assets/img/cloud4.png") center/cover no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 10;
     left: 0;
 }
 
@@ -84,13 +93,31 @@
     }
 }
 
-.container_moon {
+#moonContainer {
     position: relative;
     z-index: 1;
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
     margin: 0 auto; 
+}
+
+#moon{
+    cursor: pointer;
+} 
+
+#moonContainer p{
+    color: #fff;
+    display: flex;
+    font-family: cursive, sans-serif;
+    position: absolute;
+    cursor: pointer;
+}
+
+#moonContainer:hover p{
+    color: #83819B;
+    font-family: cursive, sans-serif;
 }
 
 @media (max-width: 500px){

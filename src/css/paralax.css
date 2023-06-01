@@ -143,13 +143,7 @@
     align-items: center;
 }
 
-.content-item2 {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    background-color: #1a1a1a;
-    /* margin-right: 40px; */
-}
+
 
 .content-item3 {
     width: 80%;
@@ -166,31 +160,7 @@
     /* margin-right: 40px; */
 }
 
-.card-project {
-    width: 350px;
-    height: 350px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 6px;
-    border: solid 1px #fff;
-    cursor: pointer;
-    text-align: center;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
 
-.card-project button {
-    height: 30px;
-    width: 150px;
-    border: none;
-    border-radius: 6px;
-    background-color: #6c63ff;
-    color: #fff;
-}
-
-.card-project:hover {
-    border: solid 1px #6c63ff;
-}
 
 .card {
     width: 100px;

@@ -1,0 +1,129 @@
+.content-item2 {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #1a1a1a;
+    /* margin-right: 40px; */
+}
+
+.container-project {
+    width:80%; 
+    display: flex; 
+    padding: 15px 0; 
+    font-family: cursive, sans-serif; 
+    margin: 0 auto; 
+}
+
+.sub-container-project {
+    width:100%; 
+    color: white; 
+    font-family: cursive, sans-serif;
+}
+
+.sub-container-project h2 {
+    font-size: 30px; 
+    color: #6C63FF;
+}
+
+.sub-container-project p {
+    text-align: center; 
+    color: #c2c2c2"
+}
+
+.container-card {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 40px; 
+    justify-content: center;
+}
+
+.box {
+	max-width: 300px;
+	height: 250px;
+	margin: 3em auto;
+    padding-top: 100px;
+	background: #b6c6e7;
+	position: relative;	
+}
+
+.box::after,
+.box::before {
+	content:" ";
+	position: absolute;
+}
+
+.box::before { 
+    width: 92%;
+    content: attr(data-item);
+    font-family: cursive, sans-serif; 
+    background-color: #6C63FF;
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 10px;
+    top: 1.5em;
+}
+
+@media (min-width: 400px){
+    .box::before { 
+        content: attr(data-item);
+        font-family: cursive, sans-serif; 
+        background-color: #6C63FF;
+        text-align: center;
+        font-size: 15.6px;
+        color: #ffffff;
+        padding: 1.2em;
+        width: 298px;
+        top: 1.5em;
+        left: -35px;
+    }
+
+    .box::after { 
+        border: 25px solid transparent;
+        border-left-color: #534aff;
+        transform: rotate(-45deg);
+        left: -24.9px;
+        top: 57px;
+    }
+}
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 10px 25px;
+    font-family: cursive, sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+  }
+
+.button {
+    background: #6C63FF;
+    border: none;
+    z-index: 1;
+  }
+  .button:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #5f90f3;
+    transition: all 0.3s ease;
+  }
+  .button:hover {
+    color: #fff;
+  }
+  .button:hover:after {
+    left: 0;
+    width: 100%;
+  }
+  .button:active {
+    top: 2px;
+  }

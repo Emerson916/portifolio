@@ -1,7 +1,12 @@
 body {
     --primary-color: #6C63FF;
-    --secundary-color:#1D1D1D;
+    --secundary-color:#534aff;
+    --tertiary-color: #b6c6e7;
+    --background-primary: #1D1D1D;
+    --background-secundary: #111;
     --text-color: #6C63FF;
+    --text-color-secundary: #fff;
+    --text-color-tertiary: #c2c2c2;
     overflow-x: hidden;
     padding: 0;
     margin: 0;
@@ -13,7 +18,7 @@ body::-webkit-scrollbar {
 }
   
 body::-webkit-scrollbar-track {
-    background: #111;        
+    background: var(--background-secundary);        
 }
   
 body::-webkit-scrollbar-thumb {
@@ -23,7 +28,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 a, li{
-    color: #fff;
+    color: var(--text-color-secundary);
     text-decoration: none;
     list-style: none;
     cursor: pointer;
@@ -73,8 +78,8 @@ footer {
     width: 100%;
     height: auto;
     padding: 10px 0;
-    background-color: #1a1a1a;
-    color: #fff;
+    background-color: var(--background-primary);
+    color: var(--text-color-secundary);
     text-align: center;
     position: absolute;
     bottom: 0;

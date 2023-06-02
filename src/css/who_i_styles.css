@@ -1,7 +1,7 @@
 .content-item0 {
     width: 100%;
     height: 600px;
-    background-color: #1a1a1a;
+    background-color: var(--background-primary);
     margin: 0 auto;
     /* margin-right: 40px; */
 }
@@ -21,7 +21,7 @@
     padding: 15px 0;
     border-radius: 6px; 
     border: 1px solid #c2c2c2; 
-    background-color: #111;
+    background-color: var(--background-secundary);
 }
 
 @media (max-width: 800px){
@@ -34,7 +34,7 @@
         padding: 15px 0; 
         border-radius: 6px; 
         border: 1px solid #c2c2c2; 
-        background-color: #111;
+        background-color: var(--background-secundary);
     }
 }
 
@@ -61,6 +61,6 @@
 
 .details {
     width: 90%; 
-    color: white; 
+    color: var(--text-color-secundary); 
     font-family: cursive, sans-serif;
 }

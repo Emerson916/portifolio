@@ -8,10 +8,14 @@ let background = document.querySelector("#background")
 sun.addEventListener("click", () => {
   sunContainer.classList.remove("slideOutLeft");
   sunContainer.classList.add("slideOutRight");
-
-  document.body.style.setProperty('--primary-color', '#6C63FF');
-  document.body.style.setProperty('--secundary-color', '#1D1D1D');
-  document.body.style.setProperty('--text-color', '#6C63FF');
+  
+  document.body.style.setProperty("--primary-color", "#6C63FF");
+  document.body.style.setProperty("--secundary-color","#534aff");
+  document.body.style.setProperty("--tertiary-color", "#b6c6e7");
+  document.body.style.setProperty("--background-primary", "#1D1D1D");
+  document.body.style.setProperty("--background-secundary", "#111");
+  document.body.style.setProperty("--text-color", "#6C63FF");
+  document.body.style.setProperty("--text-color-secundary", "#FFFFFF");
   
   setTimeout(function () {
     moonContainer.classList.add("slideOutLeft");
@@ -31,9 +35,10 @@ moonContainer.addEventListener("click", () => {
   moonContainer.classList.remove("slideOutLeft");
   moonContainer.classList.add("slideOutRight");
 
-  document.body.style.setProperty('--primary-color', '#FF0');
-  document.body.style.setProperty('--secundary-color', '#1D1D1D');
-  document.body.style.setProperty('--text-color', '#FF0');
+  document.body.style.setProperty("--background-primary", "#EEF1FF");
+  document.body.style.setProperty("--background-secundary", "#b6c6e7");
+  document.body.style.setProperty("--text-color-secundary", "#1a1a1a");
+  document.body.style.setProperty("--text-color-tertiary", "#FFF");
   
   setTimeout(function () {
     sunContainer.classList.add("slideOutLeft");

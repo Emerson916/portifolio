@@ -46,7 +46,7 @@
     </div>
 
     <div id="moonContainer">
-        <img id="moon" src="./assets/img/moon_2.png"> <img/>
+        <img id="moon" src="./assets/img/moon_2.png"/> 
         <p>Light Mode</p>
     </div>
 
@@ -97,20 +97,20 @@
             <h2 style="font-size: 30px; color: var(--text-color);">Experiências<span style="color: var(--text-color-secundary)">.</span></h2>
             <div class="container-experience">
                 <div class="select-experience">
-                    <ul>
-                        <li>AdviseU</li>
-                        <li>AdviseU</li>
-                        <li>AdviseU</li>
-                        <li>AdviseU</li>
+                    <ul id="experience-list">
+                        <li value="1">AdviseU</li>
+                        <li value="2">AdviseU</li>
+                        <li value="3">AdviseU</li>
+                        <li value="4">AdviseU</li>
                     </ul>
                 </div>
                 <div class="select-experience-description">
                     <div class="select-experience-header">
-                        <h2>Programador.jr</h2>
-                        <p style="color: var(--text-color-tertiary)">Fev 2021 - Atualmente.</p>
+                        <h2 id="office">Programador.jr</h2>
+                        <p style="color: var(--text-color-tertiary)"><span id="entry_date">Fev 2021</span> - <span id="date_exit">Atualmente</span>.</p>
                     </div>
-                    <h2 style="color: var(--text-color)">AdviseU</h2>
-                    <p style="color: var(--text-color-tertiary)">Trabalho como desenvolvedor</p>
+                    <h2 style="color: var(--text-color)" id="company">AdviseU</h2>
+                    <p style="color: var(--text-color-tertiary)" id="description">Trabalho como desenvolvedor</p>
                 </div>
             </div>
         </div>
@@ -165,7 +165,7 @@
                     <h2>Conhecimentos<span style="color: var(--text-color-secundary)">.</span></h2>
                     <p>*passe o cursor do mouse no card para ler*</p>
                 </div>
-                <div class="container-skill-2" style="width: 80%; padding: 10px 0; display: flex; flex-wrap: wrap; gap: 40px;">
+                <div class="container-skill-2" style="padding: 10px 0; display: flex; flex-wrap: wrap; gap: 40px;">
                     <div class="card">
                         card
                     </div>
@@ -201,5 +201,6 @@
     <script src="./js/paralax.js"></script>
     <script src="./js/dark-mode.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/experience.js"></script>
 </body>
 </html>

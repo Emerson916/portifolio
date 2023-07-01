@@ -23,7 +23,6 @@
 
 .select-experience {
     width: 300px; 
-    border: 1px solid var(--text-color);
     border-radius: 2px;
 }
 

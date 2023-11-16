@@ -51,7 +51,6 @@ a {
     transition: all 0.5s ease-in-out;
     position: relative;
     font-size: 16px;
-    text-transform: uppercase;
 }
   
 a::before {
@@ -83,7 +82,7 @@ footer {
     text-align: center;
     position: absolute;
     bottom: 0;
-    font-family: cursive, sans-serif;
+    font-family: monospace;
     display: flex;
     flex-wrap: wrap;
     align-items: center;

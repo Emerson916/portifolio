@@ -9,14 +9,14 @@
     width:80%; 
     display: flex; 
     padding: 15px 0; 
-    font-family: cursive, sans-serif; 
+    font-family: monospace; 
     margin: 0 auto; 
 }
 
 .sub-container-project {
     width:100%; 
     color: #fff; 
-    font-family: cursive, sans-serif;
+    font-family: monospace;
 }
 
 .sub-container-project h2 {
@@ -60,7 +60,7 @@
 .box::before { 
     width: 92%;
     content: attr(data-item);
-    font-family: cursive, sans-serif; 
+    font-family: monospace; 
     background-color: var(--primary-color);
     text-align: center;
     font-size: 15px;
@@ -72,7 +72,7 @@
 @media (min-width: 400px){
     .box::before { 
         content: attr(data-item);
-        font-family: cursive, sans-serif; 
+        font-family: monospace; 
         background-color: var(--primary-color);
         text-align: center;
         font-size: 15.6px;
@@ -97,7 +97,7 @@
     height: 40px;
     color: #fff;
     padding: 10px 25px;
-    font-family: cursive, sans-serif;
+    font-family: monospace;
     font-weight: 500;
     background: transparent;
     cursor: pointer;
@@ -133,3 +133,36 @@
   .button:active {
     top: 2px;
   }
+
+  
+  p a {
+    color: var(--text-color);
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+  }
+  
+  /*effect-underline*/
+  a.effect-underline:after {
+      content: '';
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 1em;
+    width: 100%;
+    border-bottom: 1px solid;
+    margin-top: 10px;
+    opacity: 0;
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+      -webkit-transform: scale(0,1);
+      transform: scale(0,1);
+  }
+  
+  a.effect-underline:hover:after {
+    opacity: 1;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+  }
+
+  

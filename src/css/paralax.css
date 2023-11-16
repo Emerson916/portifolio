@@ -110,14 +110,14 @@
 #moonContainer p{
     color: #fff;
     display: flex;
-    font-family: cursive, sans-serif;
+    font-family: monospace;
     position: absolute;
     cursor: pointer;
 }
 
 #moonContainer:hover p{
     color: #83819B;
-    font-family: cursive, sans-serif;
+    font-family: monospace;
 }
 
 @media (max-width: 500px){

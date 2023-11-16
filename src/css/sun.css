@@ -24,7 +24,7 @@
 }
 #sun p {
     color:  #ffee002f;
-    font-family: cursive, sans-serif;
+    font-family: monospace;
 }
 
 #sun:hover p {

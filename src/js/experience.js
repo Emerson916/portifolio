@@ -20,7 +20,7 @@ const experience = [
     {
         id: "2",
         empresa: "Finansystech",
-        cargo: "Programador Jr - Suporte",
+        cargo: "Programador Jr. - (Suporte)",
         descricao: "Com parceria da AdviseU, trabalhei junto a Finansystech por um tempo, ajudando com os projetos internos, onde eu aprendi algumas tecnologias novas.",
         data_mes_inicio: "Fev",
         data_ano_inicio: "2023",

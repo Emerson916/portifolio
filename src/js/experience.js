@@ -9,7 +9,7 @@ let value = ""
 const experience = [
     {
         id: "1",
-        empresa: "AdivseU",
+        empresa: "AdviseU",
         cargo: "Programador Jr",
         descricao: "Meu primeiro emprego, onde eu mais desenvolvi minhas habilidades de programação nos últimos anos.",
         data_mes_inicio: "Fev",

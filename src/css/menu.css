@@ -3,7 +3,7 @@
     display: flex;
     gap: 40px;
     list-style: none;
-    font-family: cursive, sans-serif;
+    font-family: monospace;
     font-size: 18px;
 }
 

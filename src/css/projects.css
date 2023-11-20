@@ -36,7 +36,7 @@
     justify-content: center;
 }
 
-.box {
+/* .box {
 	max-width: 300px;
 	height: 250px;
 	margin: 3em auto;
@@ -144,7 +144,7 @@
   
   /*effect-underline*/
   a.effect-underline:after {
-      content: '';
+    content: '';
     position: absolute;
     left: 0;
     display: inline-block;
@@ -163,6 +163,69 @@
     opacity: 1;
       -webkit-transform: scale(1);
       transform: scale(1);
+  }
+  :root {
+    --background: var(--background-secundary);
+    --card-background: var(--background-secundary);
+    --card-accent: var(--primary-color);
+    --card-width: 330px;
+    --card-height: 200px;
+    --card-border-width: 1px;
+  }
+
+  .wrapper {
+    --x: 0px;
+    --y: 0px;
+  
+    padding: 8rem;
+    display: grid;
+    width: min-content;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 20px;
+  }
+  .card {
+    position: relative;
+    background: var(--card-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--card-width);
+    height: var(--card-height);
+    border-radius: 15px;
+  }
+  .wrapper:hover .card {
+    background: radial-gradient(
+      max(var(--card-width), var(--card-height)) circle at var(--x) var(--y),
+      var(--primary-color),
+      #0000
+    );
+  }
+  .card::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: inherit;
+    background: radial-gradient(
+      max(var(--card-width), var(--card-height)) circle at var(--x) var(--y),
+      var(--card-accent),
+      #0000
+    );
+    opacity: 0;
+    transition: all 150ms;
+    box-shadow: 0 0 2px var(--card-accent) inset, 0 0 5px #0005;
+  }
+  .card:hover::before {
+    opacity: 1;
+  }
+  .card-content {
+    border-radius: inherit;
+    width: 300px;
+    height: 300px;
+    background: var(--card-background);
   }
 
   

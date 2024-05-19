@@ -1,0 +1,46 @@
+.container-introduction {
+    width:100%; 
+    height: 800px;
+    display: flex; 
+    gap: 15px;
+    padding: 0px 120px;
+    flex-direction: column;
+}
+
+.text-digital-product {
+    margin-top: 100px;
+    max-width: 740px;
+    font-size: 40px;
+    color: var(--text-color);
+}
+
+.text-digital-product > span {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+@media (max-width: 500px){
+    .text-digital-product {
+        font-size: 20;
+    }
+}
+
+.subtext-digital-product {
+    color: var(--text-color-secundary);
+    max-width: 640px;
+    font-size: 26px;
+}
+
+.button-github {
+    width: 330px;
+    height: 40px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+.button-github:hover {
+    width: 350px;
+}

@@ -1,0 +1,50 @@
+.scroll-indicator {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--primary-color);
+    margin-top: 260px;
+    z-index: 1;
+}
+
+.mouse {
+    width: 20px;
+    height: 36px;
+    border: 2px solid var(--primary-color);
+    border-radius: 12px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.wheel {
+    width: 4px;
+    height: 8px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: scroll 1.5s infinite;
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 1;
+        top: 8px;
+    }
+    50% {
+        opacity: 0;
+        top: 20px;
+    }
+    100% {
+        opacity: 1;
+        top: 8px;
+    }
+}
+
+.scroll-indicator p {
+    font-size: 16px;
+    margin: 0;
+}

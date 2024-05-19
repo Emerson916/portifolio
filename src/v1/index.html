@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="./css/paralax.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/experience.css" />
+    <link rel="stylesheet" href="./css/projects.css" />
+    <link rel="stylesheet" href="./css/skill.css" />
+    <link rel="stylesheet" href="./css/sun.css" />
+
+    <link rel="stylesheet" href="./css/staps/introduction.css" />
+    <link rel="stylesheet" href="./css/staps/who_i_styles.css" />
+    <link rel="stylesheet" href="./css/staps/experience.css" />
+
+    <link rel="stylesheet" href="./css/component/btn-back-top.css" />
+
+    <link rel="stylesheet" href="./css/animations/animation_universe.css" />
+    <link rel="stylesheet" href="./css/style-global.css" />
+    <link rel="stylesheet" href="./css/animations/animation_scroll.css" />
+    <link rel="stylesheet" href="./css/animations/light_text_animation.css" />
+    <link rel="sortcut icon" href="./assets/img/code.svg" type="icon/svg">
+    <title>Portifólio || Emerson Silva</title>
+</head>
+
+<body class="bg-dark">
+    <div class="paralax" id="home">
+        <div class="paralax-item p-item0"></div>
+        <div class="paralax-item p-item1" id="background"></div>
+        <div class="paralax-item p-item2"></div>
+        <div class="paralax-item p-item3"></div>
+        <div class="paralax-item p-item4"></div>
+    </div>
+
+    <div id="sunContainer">
+        <div id="sun">
+            <p>Modo escuro</p>
+        </div>
+    </div>
+
+    <div id="moonContainer">
+        <img id="moon" src="./assets/img/night-mode/moon_2.png" />
+        <p>Modo claro</p>
+    </div>
+    <!-- 
+    <div class="container_moon_small">
+        <img src="./assets/img/night-mode/moon_small.png" />
+    </div> -->
+
+    <div class="scroll-indicator">
+        <div class="mouse">
+            <div class="wheel"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Tela de introdução -->
+        <div class="container-introduction">
+            <p class="text-digital-product left-100">Auxiliando empresas na construção de <span>produtos digitais</span>
+                com modernidade e qualidade excepcional.</p>
+            <p class="subtext-digital-product left-300">Um programador experiente em Design e Desenvolvimento, pronto
+                para levar seu projeto ao próximo nível no mercado.</p>
+            <button class="button-github left-300">GitHub</button>
+        </div>
+
+        <!-- Tela de apresentação -->
+        <div class="container-whi-i">
+            <div class="flickering-text container-center left-100">
+                Eme<span class="flicker">r</span>son S<span class="flicker">i</span>l<span class="flicker">v</span>a
+            </div>
+            <p class="container-center my-profession left-300">Desenvolvedor de software</p>
+            <p class="my-description left-300">Olá! Me chamo Emerson Silva e sou desenvolvedor. Adoro criar soluções
+                digitais que facilitem o dia a dia das pessoas. Navegue pelo meu portfólio e conheça um pouco do meu
+                trabalho e paixão pela tecnologia.</p>
+        </div>
+
+        <!-- Experiências profissionais -->
+        <div class="container-experience" id="experience">
+            <h2 class="title-experience">Experiências</h2>
+            <div >
+                <div class="select-experience">
+                    <ul id="experience-list">
+                        <li value="1">AdviseU</li>
+                        <li value="2">Finansystech</li>
+                    </ul>
+                </div>
+                <div class="select-experience-description">
+                    <div class="select-experience-header">
+                        <h2 id="office">Programador.jr</h2>
+                        <p><span id="entry_date"></span> - <span
+                                id="date_exit"></span>.</p>
+                    </div>
+                    <h2 id="company">AdviseU</h2>
+                    <p id="description">Trabalho como desenvolvedor</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container">
+    
+    <!-- <div class="content-item2" id="project">
+            <div class="container-project">
+                <div class="sub-container-project">
+                    <h2>Projetos<span style="color: var(--text-color-secundary)">.</span></h2>
+                    <p style="color: var(--text-color-secundary);">Conheça um pouco mais do meu trabalho acessando outros projetos!.</p>
+                    <div class="container-card">
+                        <div class="box" data-item="Make Your Burguer">
+                            <p>
+                               Monte seus hamburgueres, e gerencie os pedidos...
+
+                               Teve como principal objetivo praticar um pouco o vue.js.
+                            </p>
+                            <div style="display: flex; justify-content: center; margin-top: 50px;">
+                                <a href="https://make-your-burger-sandy.vercel.app/" target="_blank"><button class="custom-btn button"><span>Ver projeto</span></button></a>
+                            </div>
+                        </div>
+                        <div class="box" data-item="Projeto 2">
+                            <p>
+                               Em Breve, um novo projeto será adicionado!!.
+                            </p>
+                            <div style="display: flex; justify-content: center; margin-top: 50px;">
+                                <button class="custom-btn button"><span>Ver projeto</span></button>
+                            </div>
+                        </div>
+                        <div class="box" data-item="Projeto 3">
+                            <p>
+                                Em Breve, um novo projeto será adicionado!!.
+                            </p>
+                            <div style="display: flex; justify-content: center; margin-top: 50px;">
+                                <button class="custom-btn button"><span>Ver projeto</span></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <a href="https://github.com/Emerson916?tab=repositories" style="font-size: 16px; text-align: center; color: var(--text-color);"><p>Acesse meus repositório e veja mais projetos.</p></a>
+                </div>
+            </div>
+        </div> -->
+    <!-- <div class="content-item3">
+            <div style="color: white; font-family: cursive, sans-serif;">
+                <h2>Serviços</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+            </div>
+        </div> -->
+    <!-- <div class="content-item4" id="skills">
+            <div class="container-skill">
+                <div class="container-skill-1">
+                    <h2>Conhecimentos<span style="color: var(--text-color-secundary)">.</span></h2>
+                    <p>*passe o cursor do mouse no card para ler*</p>
+                </div>
+                <div class="container-skill-2" style="padding: 10px 0; display: flex; flex-wrap: wrap; gap: 40px;">
+                    <div class="card">
+                        card
+                    </div>
+                    <div class="card">
+                        card
+                    </div>
+                    <div class="card">
+                        card
+                    </div>
+                    <div class="card">
+                        card
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    <!-- <footer>
+            <h4>copyright © 2023 <a href="" style="color: var(--text-color);">Emerson Silva</a><span style="color: var(--text-color-secundary)">.</span></h4>
+            <div style="display: flex; gap: 40px;">
+                <a href="https://www.linkedin.com/in/emerson-silva-32441717a/" target="_blank">
+                    <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="40px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="40px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#6C63FF" ><style type="text/css"></style><g><g><path class="st0" d="M182.8,384V212.9h-54.9V384H182.8L182.8,384z M157.4,187c18.3,0,29.7-13.1,29.7-29.5    c-0.3-16.7-11.4-29.5-29.4-29.5c-18,0-29.7,12.8-29.7,29.5c0,16.4,11.4,29.5,29,29.5H157.4L157.4,187z"/><path class="st0" d="M320.6,209c-29.1,0-41.6,16.4-49.6,27.8V213h-55v171h55v-97.4c0-5,0.4-10,1.9-13.5c4-10,13-20.3,28.2-20.3    c19.9,0,27.9,15.3,27.9,37.7V384h55v-99.9C384,232.8,356.8,209,320.6,209z"/></g><path d="M417.2,64H96.8C79.3,64,64,76.6,64,93.9v321.1c0,17.4,15.3,32.9,32.8,32.9h320.3c17.6,0,30.8-15.6,30.8-32.9V93.9   C448,76.6,434.7,64,417.2,64z M414,416c-1.1,0-313.1,0-314.9,0s-3.1-1.4-3.1-3.1S96,99.1,96,98s1-2,2-2s315,0,316,0s2,1,2,2   c0,23.3,0,314.9,0,316C416,414.9,415.1,416,414,416z"/></g></svg>
+                </a>
+                <a href="https://github.com/Emerson916/" target="_blank">
+                    <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="40px" fill="#6C63FF" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="40px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css"></style><g><path class="st0" d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/></g></svg>               
+                </a>
+                
+            </div>
+        </footer> -->
+
+    <!-- <div class="content">
+            <img src="../assets/img/m_3.png" alt="" class="invisible"/>
+        </div> -->
+        <button id="backToTopBtn" class="back-to-top-btn"></button>
+    </div>
+    <script src="./js/paralax.js"></script>
+    <script src="./js/dark-mode.js"></script>
+    <script src="./js/scroll-reveal.js"></script>
+    <script src="./js/experience.js"></script>
+    <script src="./js/btn-back-top.js"></script>
+</body>
+
+</html>

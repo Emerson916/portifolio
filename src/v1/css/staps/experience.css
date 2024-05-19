@@ -1,6 +1,6 @@
 .container-experience {
     width:100%; 
-    height: 800px;
+    height: 600px;
     display: flex; 
     gap: 15px;
     padding: 0px 120px;
@@ -12,54 +12,51 @@
     color: var(--primary-color);
 }
 
-/* .select-experience {
-    width: 300px; 
-    border-radius: 2px;
-} */
+.sub-container-experience {
+    display: flex;
+}
 
-/* @media (max-width: 800px){
-    .select-experience {
-        width: 100%;
-        border: 1px solid var(--primary-color);
-        border-radius: 2px;
-    }
-} */
+.select-experience {
+    width: 220px; 
+    height: 120px;
+    border-left: solid 1px var(--primary-color)
+}
 
-/* .select-experience ul{ 
-    max-height: 300px;
+.select-experience ul{ 
     overflow-y: scroll;
     overflow: auto;
-    border: 1px solid var(--primary-color);
-    border-radius: 2px;
     padding: 0px;
     margin: 0px; 
-} */
+}
 
-/* .select-experience li {
-    height: 50px;
+.item-experience {
+    width: 200px;
+    height: 40px;
+    border-radius: 0 45px 45px 0;
     padding-top: 20px;
-    background-color: var(--background-primary);
     text-align: center;
+    transition: 0.5s;
 }
 
-.select-experience li:hover{ 
-   background-color: var(--primary-color);
-}
-.select-experience-description {
-    width: 100%;
+.item-experience.clicked {
+   width: 210px; 
+   background-color: var(--background-primary);
+   color: var(--primary-color);
 }
 
-.select-experience-header {
+.container-data-experience {
+    max-width: 70%;
+    color: var(--text-color);
+    margin-left: 20px;
+}
+
+.sub-container-data-experience {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center; 
+    flex-direction: row;
     justify-content: space-between;
 }
 
-.select-experience-header h2{
-    color: var(--text-color-secundary);
-} */
-
-
-
+#company {
+    color: var(--primary-color);
+}
 

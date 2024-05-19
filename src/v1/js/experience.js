@@ -51,3 +51,16 @@ for (let i = 0; i < listItems.length; i++) {
     data_saida.textContent = result.data_mes_saida.length > 0 && result.data_ano_saida.length > 0 ? result.data_mes_saida + " " + result.data_ano_saida : "Atualmente"
 });
 }
+
+
+const items = document.querySelectorAll('.item-experience');
+
+items.forEach(item => {
+    item.addEventListener('click', function() {
+        // Remove a classe 'clicked' de todos os itens
+        items.forEach(i => i.classList.remove('clicked'));
+        
+        // Adiciona a classe 'clicked' ao item que foi clicado
+        this.classList.add('clicked');
+    });
+});

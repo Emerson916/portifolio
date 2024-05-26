@@ -5,8 +5,8 @@
 }
 
 .title-services {
-    color: var(--primary-color);
     font-size: 30px;
+    color: var(--primary-color);
 }
 
 .container-cards-services {

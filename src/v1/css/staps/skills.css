@@ -5,6 +5,7 @@
 }
 
 .title-skills {
+  font-size: 30px;
   color: var(--primary-color);
   padding: 0px 120px;
 }

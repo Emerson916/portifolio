@@ -9,6 +9,17 @@ ScrollReveal().reveal('.left-100', {
     reset: true
 });
 
+ScrollReveal().reveal('.left-200', {
+    duration: 1000,
+    origin: 'left',
+    distance: '100px',
+    delay: 200,
+    // rotate: { x: 0, y: 0, z: 10 },
+    // scale: 0.8,
+    easing: 'ease-in-out',
+    reset: true
+});
+
 ScrollReveal().reveal('.left-300', {
     duration: 1200,
     origin: 'left',

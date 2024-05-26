@@ -1,29 +1,30 @@
-const carrusel = document.querySelector(".carrusel-items");
+const photos = Array.from(document.getElementsByClassName("photo"));
+const photoWrapper = document.getElementById("photoWrapper");
 
-let maxScrollLeft = carrusel.scrollWidth - carrusel.clientWidth;
-let intervalo = null;
-let step = 1;
-const start = () => {
-  intervalo = setInterval(function () {
-    carrusel.scrollLeft = carrusel.scrollLeft + step;
-    if (carrusel.scrollLeft === maxScrollLeft) {
-      step = step * -1;
-    } else if (carrusel.scrollLeft === 0) {
-      step = step * -1;
+let count = 0;
+photos.forEach((photo) => {
+    count++;
+    if (count % 2) {
+        photo.classList.add("even");
     }
-  }, 10);
-};
-
-const stop = () => {
-  clearInterval(intervalo);
-};
-
-carrusel.addEventListener("mouseover", () => {
-  stop();
 });
 
-carrusel.addEventListener("mouseout", () => {
-  start();
+photoWrapper.addEventListener("scroll", () => {
+    photos.forEach(checkPosition);
 });
 
-start();
+function checkPosition(photo) {
+    if (photo.getBoundingClientRect().right - 4 <= 0) {
+        photo.remove();
+        photoWrapper.append(photo);
+        photoWrapper.scrollLeft = 0;
+        return;
+    }
+}
+
+function infiniteScroll() {
+    photoWrapper.scrollLeft++;
+    requestAnimationFrame(infiniteScroll);
+}
+
+infiniteScroll();

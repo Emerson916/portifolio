@@ -12,6 +12,7 @@
 .container-cards-services {
     display: flex;
     gap: 15px;
+    justify-content: center;
 }
 
 .card-services {
@@ -32,11 +33,20 @@
         color: var(--primary-color);
         transition: 0.5s
     }
+
+    & .card-description {
+        color: var(--text-color);
+        transition: 1.5s
+    }
 }
 
 .card-title-services {
     display: flex;
     align-items: center;
     gap: 10px;
+    color: var(--text-color-secundary);
+}
+
+.card-description {
     color: var(--text-color-secundary);
 }

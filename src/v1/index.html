@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="./css/paralax.css" />
+    <link rel="stylesheet" href="./css/sun.css" />
+    <link rel="stylesheet" href="./css/style-global.css" />
+
+    <link rel="stylesheet" href="./css/staps/introduction.css" />
+    <link rel="stylesheet" href="./css/staps/who_i_styles.css" />
+    <link rel="stylesheet" href="./css/staps/experience.css" />
+    <link rel="stylesheet" href="./css/staps/skills.css" />
+    <link rel="stylesheet" href="./css/staps/projects.css" />
+    <link rel="stylesheet" href="./css/staps/services.css" />
+    <link rel="stylesheet" href="./css/staps/footer.css" />
+
+    <link rel="stylesheet" href="./css/component/btn-back-top.css" />
+
+    <link rel="stylesheet" href="./css/animations/animation_universe.css" />
+    <link rel="stylesheet" href="./css/animations/animation_scroll.css" />
+    <link rel="stylesheet" href="./css/animations/light_text_animation.css" />
+
+    <link rel="sortcut icon" href="./assets/img/code.svg" type="icon/svg">
+    <title>Portifólio || Emerson Silva</title>
+</head>
+
+<body class="bg-dark">
+    <div class="paralax" id="home">
+        <div class="paralax-item p-item0"></div>
+        <div class="paralax-item p-item1" id="background"></div>
+        <div class="paralax-item p-item2"></div>
+        <div class="paralax-item p-item3"></div>
+        <div class="paralax-item p-item4"></div>
+    </div>
+
+    <div id="sunContainer">
+        <div id="sun">
+            <p>Modo escuro</p>
+        </div>
+    </div>
+
+    <div id="moonContainer">
+        <img id="moon" src="./assets/img/night-mode/moon_2.png" />
+        <p>Modo claro</p>
+    </div>
+    <!-- 
+    <div class="container_moon_small">
+        <img src="./assets/img/night-mode/moon_small.png" />
+    </div> -->
+
+    <div class="scroll-indicator" id="scrollIndicator">
+        <div class="mouse">
+            <div class="wheel"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Tela de introdução -->
+        <div class="container-introduction">
+            <p class="text-digital-product left-100">Auxiliando empresas na construção de <span>produtos digitais</span>
+                com modernidade e qualidade excepcional.</p>
+            <p class="subtext-digital-product left-300">Um programador experiente em Design e Desenvolvimento, pronto
+                para levar seu projeto ao próximo nível no mercado.</p>
+            <button class="button-github left-300">GitHub</button>
+        </div>
+
+        <!-- Tela de apresentação -->
+        <div class="container-whi-i">
+            <div class="flickering-text container-center left-100">
+                Eme<span class="flicker">r</span>son S<span class="flicker">i</span>l<span class="flicker">v</span>a
+            </div>
+            <p class="container-center my-profession left-300">Desenvolvedor de software</p>
+            <p class="my-description left-300">Olá! Me chamo Emerson Silva e sou desenvolvedor. Adoro criar soluções
+                digitais que facilitem o dia a dia das pessoas. Navegue pelo meu portfólio e conheça um pouco do meu
+                trabalho e paixão pela tecnologia.</p>
+        </div>
+
+        <!-- Experiências profissionais -->
+        <div class="container-experience" id="experience">
+            <h2 class="title-experience">Experiências</h2>
+            <div class="sub-container-experience">
+                <div class="select-experience">
+                    <ul id="experience-list">
+                        <li class="item-experience clicked" value="1">AdviseU</li>
+                        <li class="item-experience" value="2">Finansystech</li>
+                    </ul>
+                </div>
+                <div class="container-data-experience">
+                    <div class="sub-container-data-experience">
+                        <h2 id="office" class="left-100">Programador.jr</h2>
+                        <p class="left-100"><span id="entry_date"></span> - <span id="date_exit"></span>.</p>
+                    </div>
+                    <h2 id="company" class="left-300">AdviseU</h2>
+                    <p id="description" class="left-300">Trabalho como desenvolvedor</p>
+                </div>
+            </div>
+        </div>
+        <!-- Minhas habilidades e conhecimentos -->
+
+        <div class="container-skills">
+            <h2 class="title-skills">Habilidades</h2>
+            <p class="description-skills left-100">Esses são meus conhecimentos e habilidades que me permitem entregar
+                resultados excepcionais em cada projeto</p>
+            <div class="photo-wrapper" id="photoWrapper">
+                <div class="photo">
+                    <div class="sub-container-photo">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="container-description-photo">
+                        <p>HTML é a linguagem de marcação usada para criar e estruturar páginas da web.</p>
+                    </div>
+                </div>
+                <div class="photo">
+                    <div class="sub-container-photo">
+                        <i class="fab fa-react"></i>
+                        <h3>React</h3>
+                    </div>
+                    <div class="container-description-photo">
+                        <p>Uma biblioteca JavaScript para criar interfaces de usuário, especialmente para aplicações web
+                            de página única.</p>
+                    </div>
+                </div>
+                <div class="photo">
+                    <div class="sub-container-photo">
+                        <i class="fab fa-vuejs"></i>
+                        <h3>Vue</h3>
+                    </div>
+                    <div class="container-description-photo">
+                        <p>Um framework JavaScript para a construção de interfaces de usuário. É especialmente eficaz
+                            para a criação de aplicativos de página única.</p>
+                    </div>
+                </div>
+                <div class="photo">
+                    <div class="sub-container-photo">
+                        <i class="fab fa-node-js"></i>
+                        <h3>Node</h3>
+                    </div>
+                    <div class="container-description-photo">
+                        <p>Uma plataforma de desenvolvimento de aplicações back-end que permite executar JavaScript no
+                            servidor. É usado para criar aplicações web escaláveis e em tempo real.</p>
+                    </div>
+                </div>
+                <div class="photo">
+                    <div class="sub-container-photo">
+                        <i class="fas fa-database"></i>
+                        <h3>SQL & NoSQL</h3>
+                    </div>
+                    <div class="container-description-photo">
+                        <p>Banco de dados relacionais e não relacionais.</p>
+                    </div>
+                </div>
+                <div class="photo">
+                    <div class="sub-container-photo">
+                        <i class="fab fa-react"></i>
+                        <h3>React Native</h3>
+                    </div>
+                    <div class="container-description-photo">
+                        <p>É uma estrutura de desenvolvimento de aplicativos móveis. Permite que desenvolvedores usem
+                            React com capacidades nativas para criar aplicativos para iOS e Android.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Meus projetos -->
+        <div class="container-project">
+            <h2 class="title-project">Projetos</h2>
+            <p class="description-skills left-100">Aqui estão alguns dos projetos nos quais eu trabalhei ou estou
+                trabalhando atualmente.
+            </p>
+
+            <div class="options">
+                <div class="option active" style="background-image: url('./assets/img/projects-img/spider-man.png');">
+                    <div class="shadow"></div>
+                    <div class="label">
+                        <div class="icon" data-url="https://emerson916.github.io/spider-man/" data-original-icon="fa-laptop-code">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="info">
+                            <div class="main">Spider-man || Miles Morales</div>
+                            <div class="sub">Página estática com tema do Miles Morales</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="option" style="background-image: url('https://user-images.githubusercontent.com/77053593/168637852-e634e3a7-5cc4-4633-b867-b291b2208fa4.gif');">
+                    <div class="shadow"></div>
+                    <div class="label">
+                        <div class="icon" data-url="https://emerson916.github.io/Pong/" data-original-icon="fa-laptop-code">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="info">
+                            <div class="main">Pong - The Game</div>
+                            <div class="sub">Uma replica do jogo Pong.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="option">
+                    <div class="shadow"></div>
+                    <div class="label">
+                        <div class="icon" data-url="">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="info">
+                            <div class="main">Em Breve...</div>
+                            <div class="sub">Em breve, novos projetos.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="option">
+                    <div class="shadow"></div>
+                    <div class="label">
+                        <div class="icon" data-url="">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="info">
+                            <div class="main">Em Breve...</div>
+                            <div class="sub">Em breve, novos projetos.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Emerson916?tab=repositories" target="_blank">
+                <p class="repository-text left-100">Acesse meus repositórios</p>
+            </a>
+        </div>
+
+        <div class="container-services">
+            <h2 class="title-services">Serviços</h2>
+            <div class="container-cards-services">
+                <div class="card-services left-300">
+                    <div class="card-title-services">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobile</h3>
+                    </div>
+                    <div class="card-description">Desenvolvo aplicações mobile eficientes, intuitivas e de alta
+                        performance para Android e iOS.
+                    </div>
+                </div>
+                <div class="card-services left-200">
+                    <div class="card-title-services">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Sites</h3>
+                    </div>
+                    <div class="card-description">Desenvolvo sites dinâmicos e modernos com foco em design responsivo e
+                        performance otimizada.
+                    </div>
+                </div>
+                <div class="card-services left-100">
+                    <div class="card-title-services">
+                        <i class="fas fa-tools"></i>
+                        <h3>Suporte e Manutenção</h3>
+                    </div>
+                    <div class="card-description">Ofereço suporte técnico e manutenção contínua para garantir que seu
+                        site ou aplicação mobile funcione perfeitamente, com atualizações regulares e resolução de
+                        problemas.</div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-item">
+                <div>
+                    <div class="footer-item-1 left-100">
+                        <img src="https://avatars.githubusercontent.com/u/77053593?v=4" />
+                        <h3>PORTIFÓLIO</h3>
+                    </div>
+                    <div class="container-social-midia left-300">
+                        <p>Redes sociais</p>
+                        <div class="sub-container-social-midia">
+                            <a href="https://github.com/seuusuario">
+                                <i class="fab fa-github social-icon"></i> <!-- Ícone do GitHub -->
+                            </a>
+                            <a href="https://www.linkedin.com/in/seuperfil">
+                                <i class="fab fa-linkedin social-icon"></i> <!-- Ícone do LinkedIn -->
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="horizontal-line"></div>
+                <p class="copyright-text left-100">copyright © 2023 <span>Emerson Silva</span></p>
+            </div>
+        </footer>
+
+        <button id="backToTopBtn" class="back-to-top-btn"></button>
+    </div>
+    <script src="./js/paralax.js"></script>
+    <script src="./js/animation-scroll.js"></script>
+    <script src="./js/dark-mode.js"></script>
+    <script src="./js/scroll-reveal.js"></script>
+    <script src="./js/experience.js"></script>
+    <script src="./js/btn-back-top.js"></script>
+    <script src="./js/skills-carousel.js"></script>
+    <script src="./js/projects.js"></script>
+</body>
+
+</html>

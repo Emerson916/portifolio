@@ -1,0 +1,54 @@
+.flickering-text {
+    font-size: 6em;
+    color: #fff;
+    text-shadow: 
+        0 0 5px #fff, 
+        0 0 10px #fff, 
+        0 0 15px #fff, 
+        0 0 20px var(--primary-color), 
+        0 0 30px var(--primary-color), 
+        0 0 40px var(--primary-color), 
+        0 0 50px var(--primary-color), 
+        0 0 75px var(--primary-color);
+    display: flex;
+}
+
+.flickering-text .flicker {
+    animation: flickerAnimation 3s infinite;
+}
+
+@keyframes flickerAnimation {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        opacity: 1;
+        text-shadow: 
+            0 0 5px #fff, 
+            0 0 10px #fff, 
+            0 0 15px #fff, 
+            0 0 20px var(--primary-color), 
+            0 0 30px var(--primary-color), 
+            0 0 40px var(--primary-color), 
+            0 0 50px var(--primary-color), 
+            0 0 75px var(--primary-color);
+    }
+    19%, 21%, 23%, 24%, 54%, 56% {
+        opacity: 0;
+        text-shadow: none;
+    }
+    20% {
+        opacity: 0.6;
+        text-shadow: 
+            0 0 2px #fff, 
+            0 0 5px #fff, 
+            0 0 10px var(--primary-color), 
+            0 0 15px var(--primary-color);
+    }
+    26%, 52% {
+        opacity: 0.8;
+        text-shadow: 
+            0 0 5px #fff, 
+            0 0 10px #fff, 
+            0 0 15px #fff, 
+            0 0 20px var(--primary-color), 
+            0 0 30px var(--primary-color);
+    }
+}

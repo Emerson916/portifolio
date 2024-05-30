@@ -1,0 +1,30 @@
+.back-to-top-btn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+    display: none; /* Oculta o botão por padrão */
+    background-color: var(--background-primary);
+    color:  var(--background-primary);
+    border: solid 1px var(--primary-color);
+    border-radius: 90px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.back-to-top-btn::after {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid var(--primary-color);
+}
+
+.back-to-top-btn.show {
+    display: block; 
+    
+}

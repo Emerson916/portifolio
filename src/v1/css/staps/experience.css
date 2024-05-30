@@ -1,0 +1,62 @@
+.container-experience {
+    height: 600px;
+    display: flex; 
+    gap: 15px;
+    padding: 0px 120px;
+    background-color: var(--background-secundary);
+    flex-direction: column;
+}
+
+.title-experience {
+    font-size: 30px;
+    color: var(--primary-color);
+}
+
+.sub-container-experience {
+    display: flex;
+}
+
+.select-experience {
+    width: 220px; 
+    height: 120px;
+    border-left: solid 1px var(--primary-color)
+}
+
+.select-experience ul{ 
+    overflow-y: scroll;
+    overflow: auto;
+    padding: 0px;
+    margin: 0px; 
+}
+
+.item-experience {
+    width: 200px;
+    height: 40px;
+    border-radius: 0 45px 45px 0;
+    padding-top: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.item-experience.clicked {
+   width: 210px; 
+   background-color: var(--background-primary);
+   color: var(--primary-color);
+}
+
+.container-data-experience {
+    max-width: 70%;
+    color: var(--text-color);
+    margin-left: 20px;
+}
+
+.sub-container-data-experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#company {
+    color: var(--primary-color);
+}
+

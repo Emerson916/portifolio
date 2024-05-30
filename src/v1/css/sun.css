@@ -1,0 +1,29 @@
+#sunContainer {
+    position: relative;
+    z-index: 1;
+    display: none;
+    justify-content: center;
+}
+
+#sun {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #fff000, #ffbb00);
+    margin-top: 90px;
+    margin-bottom: 60px;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    box-shadow: 0 0 60px #ffbb00;
+}
+#sun p {
+    color:  #ffee002f;
+}
+
+#sun:hover p {
+    color: #ffbb00;
+}

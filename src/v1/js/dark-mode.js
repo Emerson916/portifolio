@@ -33,8 +33,9 @@ moonContainer.addEventListener("click", () => {
   moonContainer.classList.remove("slideOutLeft");
   moonContainer.classList.add("slideOutRight");
 
-  document.body.style.setProperty("--background-primary", "#EEF1FF");
-  document.body.style.setProperty("--background-secundary", "#b6c6e7");
+  document.body.style.setProperty("--background-primary", "#F0F0F0");
+  document.body.style.setProperty("--background-secundary", "#E6E6E6");
+  document.body.style.setProperty("--text-color", "#111111");
 
   setTimeout(function () {
     sunContainer.classList.add("slideOutLeft");

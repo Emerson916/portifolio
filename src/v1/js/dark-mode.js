@@ -14,6 +14,8 @@ sun.addEventListener("click", () => {
   document.body.style.setProperty("--tertiary-color", "#b6c6e7");
   document.body.style.setProperty("--background-primary", "#111111");
   document.body.style.setProperty("--background-secundary", "#161515");
+  document.body.style.setProperty("--text-color", "#fff");
+  document.body.style.setProperty("--text-color-secundary", "#4C4C4C");
 
   setTimeout(function () {
     moonContainer.classList.add("slideOutLeft");

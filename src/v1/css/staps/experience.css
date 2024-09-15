@@ -107,20 +107,12 @@
         padding: 8px;
     }
 
-    .title-experience {
-        font-size: 20px;
-    }
-    
     .container-data-experience {
         font-size: 14px;
     }
 }
 
 @media (max-width: 480px) {
-    .title-experience {
-        font-size: 18px;
-    }
-
     .item-experience {
         font-size: 12px;
         padding: 6px;

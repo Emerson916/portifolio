@@ -1,6 +1,6 @@
 .container-whi-i {
-    height: 500px;
-    display: flex; 
+    min-height: 500px;
+    display: flex;
     gap: 15px;
     flex-direction: column;
 }
@@ -18,10 +18,23 @@
     margin-bottom: 50px;
 }
 
-.my-description { 
+.my-description {
     width: 600px;
     margin: 0px auto;
     font-size: 20px;
     color: var(--text-color);
     text-align: center;
+}
+
+/* Responsivo para telas menores */
+@media (max-width: 768px) {
+    .my-profession {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .my-description {
+        width: auto;
+        font-size: 18px;
+    }
 }

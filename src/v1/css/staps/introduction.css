@@ -1,5 +1,5 @@
 .container-introduction {
-    height: 700px;
+    min-height: 700px;
     display: flex; 
     gap: 15px;
     padding: 0px 120px;
@@ -16,12 +16,6 @@
 .text-digital-product > span {
     color: var(--primary-color);
     font-weight: bold;
-}
-
-@media (max-width: 500px){
-    .text-digital-product {
-        font-size: 20;
-    }
 }
 
 .subtext-digital-product {
@@ -43,4 +37,34 @@
 
 .button-github:hover {
     width: 330px;
+}
+
+/* Responsivo para telas menores */
+@media (max-width: 768px) {
+    .container-introduction {
+        padding: 0px 80px;
+    }
+
+    .text-digital-product {
+        font-size: 20px;
+    }
+
+    .subtext-digital-product {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container-introduction {
+        padding: 0px 40px;
+    }
+
+    .button-github {
+        width: 200px;
+        height: 35px;
+    }
+    
+    .button-github:hover {
+        width: 230px;
+    }
 }

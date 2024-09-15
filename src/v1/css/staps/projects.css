@@ -206,3 +206,14 @@
   color: var(--primary-color);
   margin: 50px 0px;
 }
+
+/* Responsivo para telas menores */
+@media (max-width: 768px) {
+  .container-project {
+    padding: 0px 20px;
+  }
+
+  .title-project {
+    text-align: center;
+  }
+}

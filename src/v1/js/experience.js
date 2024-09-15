@@ -10,7 +10,7 @@ const experience = [
     {
         id: "1",
         empresa: "AdviseU",
-        cargo: "Programador Jr",
+        cargo: "Desenvolvedor Jr",
         descricao: "Meu primeiro emprego, onde eu mais desenvolvi minhas habilidades de programação nos últimos anos.",
         data_mes_inicio: "Fev",
         data_ano_inicio: "2022",
@@ -20,7 +20,7 @@ const experience = [
     {
         id: "2",
         empresa: "Finansystech",
-        cargo: "Programador - Suporte",
+        cargo: "Desenvolvedor - Suporte",
         descricao: "Com parceria da AdviseU, trabalhei junto a Finansystech por um tempo, ajudando com os projetos internos, onde eu aprendi algumas tecnologias novas.",
         data_mes_inicio: "Fev",
         data_ano_inicio: "2023",
@@ -30,7 +30,7 @@ const experience = [
     {
         id: "3",
         empresa: "J17Bank",
-        cargo: "Programador - Suporte",
+        cargo: "Desenvolvedor - Suporte",
         descricao: "Prestei serviços ao banco J17Bank, como suporte tecnico em algumas de suas aplicações de pagamento, reconstruindo seu ecosistema, foi onde eu fortaleci meus conhecimentos em .NET/C#.",
         data_mes_inicio: "Jun",
         data_ano_inicio: "2024",

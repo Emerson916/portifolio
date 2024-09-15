@@ -1,34 +1,23 @@
-/* Container principal */
 .container-services {
-    height: auto;
-    /* Ajusta a altura conforme o conteúdo */
+    min-height: 500px;
     padding: 20px;
-    /* Adiciona espaçamento interno uniforme */
     background-color: var(--background-primary);
     box-sizing: border-box;
-    /* Inclui o padding na altura total */
 }
 
-/* Título dos serviços */
 .title-services {
     font-size: 2rem;
-    /* Usa rem para escala relativa */
     color: var(--primary-color);
     text-align: center;
-    /* Centraliza o texto */
     margin-bottom: 20px;
-    /* Espaçamento inferior */
 }
 
-/* Container dos cartões */
 .container-cards-services {
     display: flex;
     flex-wrap: wrap;
-    /* Permite que os cartões se movam para a linha seguinte */
     gap: 15px;
     justify-content: center;
     margin: 0 auto;
-    /* Centraliza o container na tela */
 }
 
 .card-services {
@@ -42,7 +31,6 @@
     box-sizing: border-box;
 }
 
-/* Efeito hover dos cartões */
 .card-services:hover {
     border-color: var(--primary-color);
     box-shadow: 0 0 20px var(--primary-color);

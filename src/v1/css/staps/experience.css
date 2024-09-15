@@ -1,62 +1,132 @@
 .container-experience {
-    height: 600px;
-    display: flex; 
-    gap: 15px;
-    padding: 0px 120px;
+    padding: 20px;
     background-color: var(--background-secundary);
-    flex-direction: column;
 }
 
 .title-experience {
-    font-size: 30px;
+    font-size: 24px;
     color: var(--primary-color);
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .sub-container-experience {
     display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: var(--text-color);
 }
 
 .select-experience {
-    width: 220px; 
-    height: 93%;
-    border-left: solid 1px var(--primary-color)
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+    border-left: solid 1px var(--primary-color);
+    padding-right: 10px;
 }
 
-.select-experience ul{ 
-    overflow-y: scroll;
-    overflow: auto;
-    padding: 0px;
-    margin: 0px; 
+.select-experience ul { 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 400px;
+    overflow-y: auto;
 }
 
 .item-experience {
-    width: 200px;
-    height: 40px;
-    border-radius: 0 45px 45px 0;
-    padding-top: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 0 15px 15px 0;
     text-align: center;
-    transition: 0.5s;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 .item-experience.clicked {
-   width: 210px; 
-   background-color: var(--background-primary);
-   color: var(--primary-color);
+    background-color: var(--background-primary);
+    color: var(--primary-color);
 }
 
 .container-data-experience {
-    max-width: 70%;
-    color: var(--text-color);
-    margin-left: 20px;
+    flex: 2;
+    max-width: calc(100% - 20px);
 }
 
 .sub-container-data-experience {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 15px;
 }
 
-#company {
+.sub-container-data-experience h2,
+.sub-container-data-experience p {
+    margin: 0;
+}
+
+.sub-container-data-experience h2 {
     color: var(--primary-color);
 }
 
+@media (max-width: 1000px) {
+    .container-experience {
+        padding: 20px 15px;
+    }
+    
+    .title-experience {
+        font-size: 22px;
+    }
+    
+    .sub-container-experience {
+        flex-direction: column;
+    }
+
+    .select-experience {
+        max-width: 100%;
+        border-left: none;
+        border-bottom: solid 1px var(--primary-color);
+        padding-right: 0;
+    }
+
+    .select-experience ul { 
+        height: 200px;
+    }
+    
+    .container-data-experience {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .select-experience ul {
+        height: 200px;
+    }
+
+    .item-experience {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .title-experience {
+        font-size: 20px;
+    }
+    
+    .container-data-experience {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title-experience {
+        font-size: 18px;
+    }
+
+    .item-experience {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .select-experience ul {
+        height: 200px;
+    }
+}

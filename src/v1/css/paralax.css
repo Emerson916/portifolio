@@ -91,41 +91,41 @@
     }
 }
 
-#moonContainer {
+/* #moonContainer {
     position: relative;
     z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-#moon{
+/* #moon{
     width: 300px;
     cursor: pointer;
-} 
+}  */
 
-#moonContainer p{
+/* #moonContainer p{
     color: #fff;
     display: flex;
     position: absolute;
     cursor: pointer;
-}
+} */
 
-#moonContainer:hover p{
+/* #moonContainer:hover p{
     color: #83819B;
-}
+} */
 
-@media (max-width: 500px){
+/* @media (max-width: 500px){
     .container_moon {
         display: none;
     }
-}
+} */
 
-.container_moon_small {
+/* .container_moon_small {
    display: none;
-}
+} */
 
-@media (max-width: 500px){
+/* @media (max-width: 500px){
     .container_moon_small {
         position: relative;
         z-index: 1;
@@ -133,13 +133,13 @@
         justify-content: center;
         width: 100px;
     }
-}
+} */
 
-@media (max-width: 280px){
+/* @media (max-width: 280px){
     .container_moon_small img {
         width: 100px;
     }
-}
+} */
 
 .container {
     position: relative;

@@ -34,8 +34,8 @@ const experience = [
         descricao: "Prestei serviços ao banco J17Bank, como suporte tecnico em algumas de suas aplicações de pagamento, reconstruindo seu ecosistema, foi onde eu fortaleci meus conhecimentos em .NET/C#.",
         data_mes_inicio: "Jun",
         data_ano_inicio: "2024",
-        data_mes_saida: "",
-        data_ano_saida: ""
+        data_mes_saida: "Nov",
+        data_ano_saida: "2024"
     },
 ]
 
